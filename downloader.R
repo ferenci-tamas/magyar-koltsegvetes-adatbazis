@@ -10,14 +10,14 @@ wgetargs <- c(
 
 LinkData <- fread("linkek.csv")
 
-for(yr in LinkData[!is.na(LinkKoltsegvetes) & Ev >= 1995]$Ev) {
+for(yr in LinkData[LinkKoltsegvetes != "" & Ev >= 1995]$Ev) {
   system2("wget2", c(wgetargs, paste0('--directory-prefix="./dokumentumok/', yr, '/koltsegvetes-tervezet/"'),
                      LinkData[Ev == yr]$LinkKoltsegvetes))
 }
 # --no-parent https://www.parlament.hu/irom38/06571/
 
 qpdf::pdf_subset("./dokumentumok/2026/koltsegvetes-tervezet/11864KIEGSZ001.pdf", 14, "./dokumentumok/2026/koltsegvetes-tervezet/fu__kon.pdf")
-qpdf::pdf_subset("./dokumentumok/2025/koltsegvetes-tervezet/09894KIEGSZ001.pdf", 18, "./dokumentumok/2025/koltsegvetes-tervezet/fu_kon.pdf")
+qpdf::pdf_subset("./dokumentumok/2025/koltsegvetes-tervezet/09894KIEGSZ001.pdf", 18, "./dokumentumok/2025/koltsegvetes-tervezet/fu__kon.pdf")
 qpdf::pdf_subset("./dokumentumok/2024/koltsegvetes-tervezet/2024kv_altindmell.pdf", 14, "./dokumentumok/2024/koltsegvetes-tervezet/fu__kon.pdf")
 qpdf::pdf_subset("./dokumentumok/2015/koltsegvetes-tervezet/01794.pdf", 249, "./dokumentumok/2015/koltsegvetes-tervezet/fu__kon.pdf")
 qpdf::pdf_subset("./dokumentumok/2014/koltsegvetes-tervezet/12415.pdf", 251, "./dokumentumok/2014/koltsegvetes-tervezet/fu__kon.pdf")
@@ -26,7 +26,7 @@ file.copy("./dokumentumok/2004/koltsegvetes-tervezet/fu_konsz.pdf", "./dokumentu
 
 ###### Zárszámadás #####
 
-for(yr in LinkData[!is.na(LinkZarszamadas) & Ev >= 1995]$Ev) {
+for(yr in LinkData[LinkZarszamadas != "" & Ev >= 1995]$Ev) {
   system2("wget2", c(wgetargs, paste0('--directory-prefix="./dokumentumok/', yr, '/zarszamadas-tervezet/"'),
                      LinkData[Ev == yr]$LinkZarszamadas))
 }
