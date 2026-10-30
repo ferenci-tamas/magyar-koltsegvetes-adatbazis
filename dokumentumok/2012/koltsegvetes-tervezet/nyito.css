@@ -1,0 +1,29 @@
+/*2008.11.07.*/
+BODY { background: #eee8aa; margin: 5px; }
+.n { width: 780px; margin: auto; text-align: center; }
+.kep { margin: 0; padding: 0; }
+H1, H2, H3 { font-family: "Times New Roman", serif; font-weight: bold; color: #8b0000; }
+H1 { text-align: center; font-size: 14pt; font-variant: small-caps; margin: 10px; }
+H2 { text-align: left; font-size: 14pt; }
+H3 { text-align: left; margin-left: 1cm; font-size: 13pt; font-style: italic; }
+body, P, SPAN, LI, TD, BR, TH, TR, DD, DT { font-family: "Times New Roman", serif; font-size: 12pt; color: #8b0000; }
+.be { margin-left: 30px; }
+LI.none { list-style-type: none; }
+A:link, A:visited, A:active { text-decoration:none; font-weight: bold; }
+A:link, A:visited { color: #b8860b; }
+A:active { color: #8b0000; }
+A:hover { color: #8b0000; text-decoration: underline overline; }
+td { vertical-align: top; }
+.clr { background-color: #8b0000; color: #ffc; font-weight: bold; }
+.srg { background-color: #ffc; color: #8b0000; font-weight: bold; }
+.gry { background-color: #c0c0c0; color: #8b0000; font-weight: bold; text-align: center; }
+.tabr { font-family: arial narrow, sans-serif; font-size: 11; text-align: right; }
+.tabc { font-family: arial narrow, sans-serif; font-size: 11; text-align: center; }
+.tabn { font-family: arial narrow, sans-serif; font-size: 11; text-align: left; }
+td.y { background-image: piros.gif; background-repeat: repeat-y; }
+
+table.eb th, table.eb td { border: 0px; }
+table.eb { border-collapse: collapse; }
+table.eb tr.masodik { background-color: rgb(224,224,224);}
+table.eb th { background-color: #D0D0D0; }
+table.eb caption { caption-side: bottom; }
