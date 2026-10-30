@@ -44,7 +44,7 @@ Nagyon fontos hangsúlyozni, hogy ezek a számok *önmagukban* természetesen ne
 
 Az összes költségvetés letöltése után -- a teljes adatbázist lásd a következő pontban -- kinyertem a mellékletekből a funkcionális kiadások tábláit, és egyetlen, harmonizált formátumú, az összes elérhető múltbeli adatot egységes struktúrában tartalmazó, gépi úton feldolgozható táblázattá alakítottam. Az idősor 2003-ban indul, mert a korábbi éveknél nem találtam meg a költségvetés azon mellékleteit, ami a funkcionális bontást tartalmazná (valószínűleg nagyon régre visszamenve nem is készült ilyen). A táblázat a konszolidált adatokat tartalmazza (ez azt jelenti, hogy ha az államháztartás egyik alrendszere egy másik alrendszernek pénzt küld, akkor azt nem jelenítjük meg az előbbinél kiadásként, az utóbbinál pedig bevételként, hiszen az államháztartás egészét nézve egy ilyen mozgás neutrális).
 
-A táblázatot elérhetővé tettem [CSV](https://github.com/ferenci-tamas/magyar-koltsegvetes-adatbazis/raw/refs/heads/main/magyar-koltsegvetes-funkcionalis-kiadasok.csv) és [XLSX](https://github.com/ferenci-tamas/magyar-koltsegvetes-adatbazis/raw/refs/heads/main/magyar-koltsegvetes-funkcionalis-kiadasok.xlsx) formátumokban, valamint az R nyelvi feldolgozásra alkalmas [RDS](https://github.com/ferenci-tamas/magyar-koltsegvetes-adatbazis/raw/refs/heads/main/magyar-koltsegvetes-funkcionalis-kiadasok.rds) formátumban (ez utóbbi tartalmazza az automatikus ellenőrzések eredményeit is).
+A táblázatot elérhetővé tettem [CSV](magyar-koltsegvetes-funkcionalis-kiadasok.csv?raw=true) és [XLSX](magyar-koltsegvetes-funkcionalis-kiadasok.xlsx?raw=true) formátumokban, valamint az R nyelvi feldolgozásra alkalmas [RDS](magyar-koltsegvetes-funkcionalis-kiadasok.rds?raw=true) formátumban (ez utóbbi tartalmazza az automatikus ellenőrzések eredményeit is).
 
 ### Ismert problémák és javítások
 
@@ -64,9 +64,9 @@ A következő dolgok számomra nem stimmelnek, de nem ismerem az okukat, és nin
 
 ### Technikai részletek
 
-A modern éra azon éveiben, ahol a költségvetésnek saját aloldala volt a Parlament honlapján, a költségvetések dokumentumait egy [R nyelven](https://ferenci-tamas.github.io/r-nyelv/) írt szkript segítségével töltöttem le a Parlament honlapjáról ([downloader.R](https://github.com/ferenci-tamas/magyar-koltsegvetes-adatbazis/blob/main/downloader.R)). A szkript `wget2` használatával végzi a letöltést, kiindulva a költségvetés kezdőoldaláról -- melynek linkjeit egy [külön fájl](https://github.com/ferenci-tamas/magyar-koltsegvetes-adatbazis/blob/main/linkek.csv) tartalmazza -- és onnan rekurzívan (`--recursive --level=inf`), de végig a megfelelő domainen belül maradva (`--domains=parlament.hu --span-hosts`) tölt le minden fájlt. A könyvtárstruktúrát nem őrzi meg (`--no-directories`), de arra figyel, hogy az azonos nevű fájlok úgy neveződjenek át, hogy a kiterjesztésük megmaradjon (`--keep-extension`). Ez utóbbi csak a `wget2`-ben van, a `wget`-ben nincs, de amúgy is célszerűbb a `wget2` használata, mert gyorsabb és modernebb. Azon években, ahol nem volt ilyen aloldal, kézzel töltöttem le a fájlokat (ez könnyen megtehető volt, mert az aloldal hiánya épp azt jelentette, hogy csak 3--4 fájl van tipikusan kitéve). Ahol szükséges volt, jellemzően ez utóbbi esetekben, a hosszú PDF-ekből `qpdf::pdf_subset` segítségével szedtem ki azt az oldalt, ahol a szükséges tábla volt. Egy-két esetben külön fájlban volt ugyan a tábla, de a szokásostól eltérő volt a fájl neve, ezeknél létrehoztam egy szabványos nevű másolatot is, így végeredményben egységesen `fu__kon.pdf` néven minden esetben metalálható a szükséges tábla (minden évre és mind a tervezetre, mind a zárszámadásra).
+A modern éra azon éveiben, ahol a költségvetésnek saját aloldala volt a Parlament honlapján, a költségvetések dokumentumait egy [R nyelven](https://ferenci-tamas.github.io/r-nyelv/) írt szkript segítségével töltöttem le a Parlament honlapjáról ([downloader.R](downloader.R)). A szkript `wget2` használatával végzi a letöltést, kiindulva a költségvetés kezdőoldaláról -- melynek linkjeit egy [külön fájl](linkek.csv) tartalmazza -- és onnan rekurzívan (`--recursive --level=inf`), de végig a megfelelő domainen belül maradva (`--domains=parlament.hu --span-hosts`) tölt le minden fájlt. A könyvtárstruktúrát nem őrzi meg (`--no-directories`), de arra figyel, hogy az azonos nevű fájlok úgy neveződjenek át, hogy a kiterjesztésük megmaradjon (`--keep-extension`). Ez utóbbi csak a `wget2`-ben van, a `wget`-ben nincs, de amúgy is célszerűbb a `wget2` használata, mert gyorsabb és modernebb. Azon években, ahol nem volt ilyen aloldal, kézzel töltöttem le a fájlokat (ez könnyen megtehető volt, mert az aloldal hiánya épp azt jelentette, hogy csak 3--4 fájl van tipikusan kitéve). Ahol szükséges volt, jellemzően ez utóbbi esetekben, a hosszú PDF-ekből `qpdf::pdf_subset` segítségével szedtem ki azt az oldalt, ahol a szükséges tábla volt. Egy-két esetben külön fájlban volt ugyan a tábla, de a szokásostól eltérő volt a fájl neve, ezeknél létrehoztam egy szabványos nevű másolatot is, így végeredményben egységesen `fu__kon.pdf` néven minden esetben megtalálható a szükséges tábla (minden évre és mind a tervezetre, mind a zárszámadásra).
 
-Ezen PDF-ek tartalmát szintén egy szkript ([read_fukon.R](https://github.com/ferenci-tamas/magyar-koltsegvetes-adatbazis/blob/main/read_fukon.R)) segítségével nyertem ki és alakítottam gépi úton feldolgozható formátumúra (ez a szkript Claude Opus 5.5 segítségével készült, itt most nem aggódtam a programozás automatizálása miatt, hiszen a végeredmény úgyis jól ellenőrizhető, amit meg is tettem).
+Ezen PDF-ek tartalmát szintén egy szkript ([read_fukon.R](read_fukon.R)) segítségével nyertem ki és alakítottam gépi úton feldolgozható formátumúra (ez a szkript Claude Opus 5.5 segítségével készült, itt most nem aggódtam a programozás automatizálása miatt, hiszen a végeredmény úgyis jól ellenőrizhető, amit meg is tettem).
 
 A következő automatizált ellenőrzések futnak: a csoportok összege egyenlő-e a főcsoport értékével, a főcsoportok összege egyenlő-e a fő funkció értékével, a fő funkciók összege egyenlő-e a teljes kiadással, és végezetül a teljes kiadás és a bevétel különbsége egyenlő-e az egyenleggel (ha ez utóbbi kettő is adva volt). Ezenkívül ellenőrzi a szkript, hogy a kód és a név között egy-egy megfeleltetés van-e (hogy később nyugodtak lehessünk, hogy bármelyik használható azonosításra).
 
@@ -77,19 +77,19 @@ A táblázat az 1946-os költségvetéssel indul -- költségvetése ugyan már 
 ```{r, echo = FALSE}
 LinkData <- data.table::fread("linkek.csv")
 
-knitr::kable(data.table::rbindlist(lapply(2026:1999, function(ev) data.table::data.table(
+knitr::kable(data.table::rbindlist(lapply(2026:1991, function(ev) data.table::data.table(
   `Év` = ev,
   `Költségvetés tervezet, indoklás, melléklet` = 
-    paste0("[Dokumentumok](https://github.com/ferenci-tamas/magyar-koltsegvetes-adatbazis/tree/main/dokumentumok/", ev, "/koltsegvetes-tervezet)",
+    paste0("[Dokumentumok](dokumentumok/", ev, "/koltsegvetes-tervezet)",
            if(LinkData[Ev == ev]$LinkKoltsegvetes != "") paste0(" ([Parlament.hu](", LinkData[Ev == ev]$LinkKoltsegvetes, "))")),
   `Költségvetés jogszabály` = if(LinkData[Ev == ev]$LinkKoltsegvetesJogszabaly != "")
-    paste0("[Jogszabály](https://github.com/ferenci-tamas/magyar-koltsegvetes-adatbazis/tree/main/dokumentumok/", ev, "/koltsegvetes-jogszabaly)",
+    paste0("[Jogszabály](dokumentumok/", ev, "/koltsegvetes-jogszabaly)",
            " ([NJT](", LinkData[Ev == ev]$LinkKoltsegvetesJogszabaly, "))") else "",
   `Módosítás` = "",
-  `Zárszámadás tervezet, indoklás, melléklet` = paste0("[Dokumentumok](https://github.com/ferenci-tamas/magyar-koltsegvetes-adatbazis/tree/main/dokumentumok/", ev, "/zarszamadas-tervezet)",
+  `Zárszámadás tervezet, indoklás, melléklet` = paste0("[Dokumentumok](dokumentumok/", ev, "/zarszamadas-tervezet)",
            if(LinkData[Ev == ev]$LinkZarszamadas != "") paste0(" ([Parlament.hu](", LinkData[Ev == ev]$LinkZarszamadas, "))")),
   `Zárszámadás jogszabály` = if(LinkData[Ev == ev]$LinkZarszamadasJogszabaly != "")
-    paste0("[Jogszabály](https://github.com/ferenci-tamas/magyar-koltsegvetes-adatbazis/tree/main/dokumentumok/", ev, "/zarszamadas-jogszabaly)",
+    paste0("[Jogszabály](dokumentumok/", ev, "/zarszamadas-jogszabaly)",
            " ([NJT](", LinkData[Ev == ev]$LinkZarszamadasJogszabaly, "))") else ""
 )), use.names = TRUE, fill = TRUE))
 ```

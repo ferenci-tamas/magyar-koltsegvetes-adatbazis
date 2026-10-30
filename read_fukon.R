@@ -295,10 +295,12 @@ fukons <- list.files("./dokumentumok/", "fu__kon.pdf", recursive = TRUE, full.na
 matrix(fukons, ncol = 2, byrow = TRUE)
 
 fk <- read_fukons(fukons)
-fk <- fk[order(year, doc_type, column, row),
+fk2 <- fk[order(year, doc_type, column, row),
          .(year, doc_type, column, type, row, level, code, name, value,
            source = sub("^.*?/([^/]+/[^/]+)/.*$", "\\1", file))]
+attr(fk2, "checks") <- attr(fk, "checks")
+attr(fk2, "code_check") <- attr(fk, "code_check")
 
-saveRDS(fk, "magyar-koltsegvetes-funkcionalis-kiadasok.rds")
-openxlsx::write.xlsx(fk, "magyar-koltsegvetes-funkcionalis-kiadasok.xlsx")
-fwrite(fk, "magyar-koltsegvetes-funkcionalis-kiadasok.csv", dec = ",", sep =";", bom = TRUE)
+saveRDS(fk2, "magyar-koltsegvetes-funkcionalis-kiadasok.rds")
+openxlsx::write.xlsx(fk2, "magyar-koltsegvetes-funkcionalis-kiadasok.xlsx")
+fwrite(fk2, "magyar-koltsegvetes-funkcionalis-kiadasok.csv", dec = ",", sep =";", bom = TRUE)
