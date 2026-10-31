@@ -77,23 +77,34 @@ A táblázat az 1949-es költségvetéssel indul -- költségvetése ugyan már 
 ```{r, echo = FALSE}
 LinkData <- data.table::fread("linkek.csv")
 
-knitr::kable(data.table::rbindlist(lapply(2026:1991, function(ev) data.table::data.table(
+knitr::kable(data.table::rbindlist(lapply(LinkData$Ev, function(ev) data.table::data.table(
   `Év` = ev,
   `Költségvetés tervezet, indokolás, melléklet` = 
     if(dir.exists(paste0("./dokumentumok/", ev, "/koltsegvetes-tervezet")))
       paste0("[Dokumentumok](dokumentumok/", ev, "/koltsegvetes-tervezet)",
              if(LinkData[Ev == ev]$LinkKoltsegvetes != "") paste0(" ([Parlament.hu](", LinkData[Ev == ev]$LinkKoltsegvetes, "))"))  else "",
-  `Költségvetés jogszabály` = if(LinkData[Ev == ev]$LinkKoltsegvetesJogszabalyNJT != "")
+  `Költségvetés jogszabály` = if(dir.exists(paste0("./dokumentumok/", ev, "/koltsegvetes-jogszabaly")))
     paste0("[Jogszabály](dokumentumok/", ev, "/koltsegvetes-jogszabaly)",
-           " ([NJT](", LinkData[Ev == ev]$LinkKoltsegvetesJogszabalyNJT, "))") else "",
+           if(LinkData[Ev == ev]$LinkKoltsegvetesJogszabalyNJT != "" | LinkData[Ev == ev]$LinkKoltsegvetesJogszabalyJogkodex != "")
+             paste0(" (",
+                    if(LinkData[Ev == ev]$LinkKoltsegvetesJogszabalyNJT != "") paste0("[NJT](", LinkData[Ev == ev]$LinkKoltsegvetesJogszabalyNJT, ")"),
+                    if(LinkData[Ev == ev]$LinkKoltsegvetesJogszabalyNJT != "" & LinkData[Ev == ev]$LinkKoltsegvetesJogszabalyJogkodex != "") ", ",
+                    if(LinkData[Ev == ev]$LinkKoltsegvetesJogszabalyJogkodex != "") paste0("[Jogkódex](", LinkData[Ev == ev]$LinkKoltsegvetesJogszabalyJogkodex, ")"), ")")) else "",
   `Módosítás` = "",
   `Zárszámadás tervezet, indokolás, melléklet` =
     if(dir.exists(paste0("./dokumentumok/", ev, "/zarszamadas-tervezet")))
       paste0("[Dokumentumok](dokumentumok/", ev, "/zarszamadas-tervezet)",
              if(LinkData[Ev == ev]$LinkZarszamadas != "") paste0(" ([Parlament.hu](", LinkData[Ev == ev]$LinkZarszamadas, "))")) else "",
-  `Zárszámadás jogszabály` = if(LinkData[Ev == ev]$LinkZarszamadasJogszabalyNJT != "")
+  `Zárszámadás jogszabály` = if(dir.exists(paste0("./dokumentumok/", ev, "/zarszamadas-jogszabaly")))
     paste0("[Jogszabály](dokumentumok/", ev, "/zarszamadas-jogszabaly)",
-           " ([NJT](", LinkData[Ev == ev]$LinkZarszamadasJogszabalyNJT, "))") else ""
+           if(LinkData[Ev == ev]$LinkZarszamadasJogszabalyNJT != "" | LinkData[Ev == ev]$LinkZarszamadasJogszabalyJogkodex != "")
+             paste0(" (",
+                    if(LinkData[Ev == ev]$LinkZarszamadasJogszabalyNJT != "") paste0("[NJT](", LinkData[Ev == ev]$LinkZarszamadasJogszabalyNJT, ")"),
+                    if(LinkData[Ev == ev]$LinkZarszamadasJogszabalyNJT != "" & LinkData[Ev == ev]$LinkZarszamadasJogszabalyJogkodex != "") ", ",
+                    if(LinkData[Ev == ev]$LinkZarszamadasJogszabalyJogkodex != "") paste0("[Jogkódex](", LinkData[Ev == ev]$LinkZarszamadasJogszabalyJogkodex, ")"), ")")) else ""
 )), use.names = TRUE, fill = TRUE))
 ```
 
+## Adatforrások
+
+A jogszabályok szövegének adatforrása a [Nemzeti Jogszabálytár](https://njt.jog.gov.hu/) és a [Jogkódex](https://jogkodex.hu/). (Mivel az előbbi a hivatalos, ezért ahol lehetett, azt használtam, de bizonyos régebbi törvények nem voltak ott fellelhetőek.) A tervezetek indokolásai, mellékletei az újabb időszak esetében a [Parlament honlapjáról](https://www.parlament.hu/), régebbi időknél az Országgyűlési Könyvtár [Magyar Parlamenti Gyűjteményéből](https://mandadb.hu/tart/kereses?HNDTYPE=SEARCH&name=doc&page=1&fld_sort=score_insdt&fld_compound_target=allfields&fld_compound=k%C3%B6lts%C3%A9gvet%C3%A9s&_clearfacets=1&_clearfilters=1&fac_organization=24) származnak, melyet a Magyar Nemzeti Digitális Archívumon [keresztül](https://mandadb.hu/) értem el.

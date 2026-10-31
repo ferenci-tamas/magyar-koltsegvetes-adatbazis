@@ -3,11 +3,13 @@ library(data.table)
 # Reading the "konszolidált funkcionális mérleg / kiadások" tables (fu__kon.pdf)
 #
 #   read_fukon(file)     one PDF  -> wide data.table, one column per header column
-#   read_fukons(files)   many PDFs -> long data.table (file, doc_type, row, level, code,
-#                        name, column, year, type, value); `year` and `type` ("actual",
-#                        "original_plan" or "modified_plan") come from the column
-#                        header, `doc_type` ("Tervezet" or "Zarszamadas") from the
-#                        table; runs both checks below, see attr(x, "checks") and
+#   read_fukons(files)   many PDFs -> long data.table (doc_year, doc_type, row, level,
+#                        code, name, column, year, type, value); `year` and `type`
+#                        ("actual", "original_plan" or "modified_plan") come from the
+#                        column header, `doc_year` (the year the document is about, i.e.
+#                        the latest `year` in it) and `doc_type` ("Tervezet" or
+#                        "Zarszamadas") from the table, together they identify the
+#                        document; runs both checks below, see attr(x, "checks") and
 #                        attr(x, "code_check")
 #   check_fukon(x)       the totals check itself (long or wide input)
 #   check_fukon_codes(x) is the code <-> name mapping one-to-one (long or wide input)?
@@ -181,7 +183,6 @@ fukon_long <- function(wide, file = NA_character_) {
   long[, cpos := match(column, value_cols)]
   setorder(long, row, cpos)
   long[, cpos := NULL]
-  long[, file := file]
   # From the header: "teljesítés" -> actual; "törvényi módosított (ei.)" -> modified plan;
   # "terv", "tervezés", "törvény", "eredeti", "(eredeti/törvényi) előirányzat" -> original plan
   long[, year := strtoi(sub("^([0-9]{4})\\..*$", "\\1", column), base = 10L)]
@@ -193,10 +194,12 @@ fukon_long <- function(wide, file = NA_character_) {
   if (anyNA(long$year) || anyNA(long$type))
     warning(file, ": could not parse year or type from header(s): ",
             paste(unique(long[is.na(year) | is.na(type), column]), collapse = ", "), call. = FALSE)
-  # Final accounts (Zárszámadás) report the actual for their latest year, proposals don't
+  # A document is about its latest year: final accounts (Zárszámadás) report the actual
+  # for it, proposals (Tervezet) don't
   latest <- max(long$year, na.rm = TRUE)
-  long[, doc_type := if (any(type == "actual" & year == latest, na.rm = TRUE)) "Zarszamadas" else "Tervezet"]
-  setcolorder(long, c("file", "doc_type", "row", "level", "code", "name", "column", "year", "type", "value"))
+  long[, `:=`(doc_year = latest,
+              doc_type = if (any(type == "actual" & year == latest, na.rm = TRUE)) "Zarszamadas" else "Tervezet")]
+  setcolorder(long, c("doc_year", "doc_type", "row", "level", "code", "name", "column", "year", "type", "value"))
   long[]
 }
 
@@ -210,28 +213,30 @@ fukon_long <- function(wide, file = NA_character_) {
 check_fukon <- function(x, tol = NULL) {
   x <- as.data.table(x)
   if (!all(c("column", "value") %in% names(x))) x <- fukon_long(x)
-  if (!"file" %in% names(x)) x[, file := NA_character_]
-  x <- x[, .(file, column, row, level, code, name, v = fcoalesce(value, 0))]
-  setorder(x, file, column, row)
+  if (!"doc_year" %in% names(x)) x[, doc_year := NA_integer_]
+  if (!"doc_type" %in% names(x)) x[, doc_type := NA_character_]
+  x <- x[, .(doc_year, doc_type, column, row, level, code, name, v = fcoalesce(value, 0))]
+  keys <- c("doc_year", "doc_type", "column")
+  setorderv(x, c(keys, "row"))
   # A main group belongs to the closest function row above it
-  x[, fn := cummax(fifelse(level == "function", row, 0L)), by = .(file, column)]
-  keys <- c("file", "column")
+  x[, fn := cummax(fifelse(level == "function", row, 0L)), by = keys]
 
   c1 <- merge(
-    x[level == "main_group", .(file, column, parent = code, reported = v)],
+    x[level == "main_group", .(doc_year, doc_type, column, parent = code, reported = v)],
     x[level == "subgroup", .(computed = sum(v), n = .N),
-      by = .(file, column, parent = sub("\\..*$", "", code))],
+      by = .(doc_year, doc_type, column, parent = sub("\\..*$", "", code))],
     by = c(keys, "parent"), all.y = TRUE
   )[, check := "subgroups = main group"]
 
   c2 <- merge(
-    x[level == "function", .(file, column, fn = row, parent = name, reported = v)],
-    x[level == "main_group", .(computed = sum(v), n = .N), by = .(file, column, fn)],
+    x[level == "function", .(doc_year, doc_type, column, fn = row, parent = name, reported = v)],
+    x[level == "main_group", .(computed = sum(v), n = .N), by = c(keys, "fn")],
     by = c(keys, "fn"), all = TRUE
   )[, fn := NULL][, check := "main groups = function"]
 
   c3 <- merge(
-    x[level == "total" & grepl("kiadás", tolower(name)), .(file, column, parent = name, reported = v)],
+    x[level == "total" & grepl("kiadás", tolower(name)),
+      .(doc_year, doc_type, column, parent = name, reported = v)],
     x[level == "function", .(computed = sum(v), n = .N), by = keys],
     by = keys
   )[, check := "functions = total expenditure"]
@@ -247,18 +252,19 @@ check_fukon <- function(x, tol = NULL) {
   res[, diff := round(reported - computed, 6)]
   res[, tol := if (is.null(tol)) 0.05 * (n + 1) + 1e-6 else tol]
   res[, ok := !is.na(diff) & abs(diff) <= tol]
-  setcolorder(res, c("file", "column", "check", "parent", "n", "reported", "computed", "diff", "tol", "ok"))
+  setcolorder(res, c(keys, "check", "parent", "n", "reported", "computed", "diff", "tol", "ok"))
   res[]
 }
 
-# Is the code <-> name mapping one-to-one across all files? Returns every code-name pair
-# involved in a violation (a code with several names, or a name with several codes),
-# with the files it occurs in; an empty table means the mapping is one-to-one.
+# Is the code <-> name mapping one-to-one across all documents? Returns every code-name
+# pair involved in a violation (a code with several names, or a name with several codes),
+# with the documents it occurs in; an empty table means the mapping is one-to-one.
 check_fukon_codes <- function(x) {
   x <- as.data.table(x)
-  if (!"file" %in% names(x)) x[, file := NA_character_]
-  pairs <- unique(x[!is.na(code), .(file, code, name)])[
-    , .(n_files = .N, files = paste(file, collapse = ", ")), by = .(code, name)]
+  if (!"doc_year" %in% names(x)) x[, doc_year := NA_integer_]
+  if (!"doc_type" %in% names(x)) x[, doc_type := NA_character_]
+  pairs <- unique(x[!is.na(code), .(doc = paste(doc_year, doc_type), code, name)])[
+    , .(n_docs = .N, docs = paste(doc, collapse = ", ")), by = .(code, name)]
   res <- rbind(
     pairs[code %in% code[duplicated(code)]][, problem := "code has several names"],
     pairs[name %in% name[duplicated(name)]][, problem := "name has several codes"]
@@ -268,7 +274,13 @@ check_fukon_codes <- function(x) {
 }
 
 read_fukons <- function(files, tol = NULL) {
-  res <- rbindlist(lapply(files, function(f) fukon_long(read_fukon(f), f)))
+  res <- lapply(files, function(f) fukon_long(read_fukon(f), f))
+  # (doc_year, doc_type) identifies the document, in the result and in the checks
+  ids <- vapply(res, function(d) paste(d$doc_year[1], d$doc_type[1]), "")
+  dup <- ids %in% ids[duplicated(ids)]
+  if (any(dup)) stop("several files give the same document: ",
+                     paste0(files[dup], " (", ids[dup], ")", collapse = ", "), call. = FALSE)
+  res <- rbindlist(res)
   checks <- check_fukon(res, tol)
   nbad <- sum(!checks$ok)
   if (nbad) {
@@ -295,12 +307,7 @@ fukons <- list.files("./dokumentumok/", "fu__kon.pdf", recursive = TRUE, full.na
 fukons
 
 fk <- read_fukons(fukons)
-fk2 <- fk[order(year, doc_type, column, row),
-         .(year, doc_type, column, type, row, level, code, name, value,
-           source = sub("^.*?/([^/]+/[^/]+)/.*$", "\\1", file))]
-attr(fk2, "checks") <- attr(fk, "checks")
-attr(fk2, "code_check") <- attr(fk, "code_check")
 
-saveRDS(fk2, "magyar-koltsegvetes-funkcionalis-kiadasok.rds")
-openxlsx::write.xlsx(fk2, "magyar-koltsegvetes-funkcionalis-kiadasok.xlsx")
-fwrite(fk2, "magyar-koltsegvetes-funkcionalis-kiadasok.csv", dec = ",", sep =";", bom = TRUE)
+saveRDS(fk, "magyar-koltsegvetes-funkcionalis-kiadasok.rds")
+openxlsx::write.xlsx(fk, "magyar-koltsegvetes-funkcionalis-kiadasok.xlsx")
+fwrite(fk, "magyar-koltsegvetes-funkcionalis-kiadasok.csv", dec = ",", sep =";", bom = TRUE)
