@@ -37,3 +37,4 @@ qpdf::pdf_subset("./dokumentumok/2022/zarszamadas-tervezet/tvjav_00_indmell.pdf"
 qpdf::pdf_subset("./dokumentumok/2013/zarszamadas-tervezet/2013zsz_fokotet.pdf", 283, "./dokumentumok/2013/zarszamadas-tervezet/fu__kon.pdf")
 file.copy("./dokumentumok/2015/zarszamadas-tervezet/fu__kon_2.pdf", "./dokumentumok/2015/zarszamadas-tervezet/fu__kon.pdf")
 file.copy("./dokumentumok/2014/zarszamadas-tervezet/fu__kon_2.pdf", "./dokumentumok/2014/zarszamadas-tervezet/fu__kon.pdf")
+file.copy("./dokumentumok/2001/zarszamadas-tervezet/ah_fu_nkcioreport_konsz_kiadasok.pdf", "./dokumentumok/2001/zarszamadas-tervezet/fu__kon.pdf")

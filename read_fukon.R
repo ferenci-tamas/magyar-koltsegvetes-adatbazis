@@ -292,7 +292,7 @@ read_fukons <- function(files, tol = NULL) {
 
 fukons <- list.files("./dokumentumok/", "fu__kon.pdf", recursive = TRUE, full.names = TRUE)
 
-matrix(fukons, ncol = 2, byrow = TRUE)
+fukons
 
 fk <- read_fukons(fukons)
 fk2 <- fk[order(year, doc_type, column, row),

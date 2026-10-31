@@ -1,4 +1,252 @@
 ﻿year;doc_type;column;type;row;level;code;name;value;source
+2000;Zarszamadas;2000. évi teljesítés;actual;1;function;;ÁLLAMI MŰKÖDÉSI FUNKCIÓK;955068,9;2001/zarszamadas-tervezet
+2000;Zarszamadas;2000. évi teljesítés;actual;2;main_group;F01;Általános közösségi szolgáltatások;600144,4;2001/zarszamadas-tervezet
+2000;Zarszamadas;2000. évi teljesítés;actual;3;subgroup;F01.a;Törvényhozó és végrehajtó szervek;285818,6;2001/zarszamadas-tervezet
+2000;Zarszamadas;2000. évi teljesítés;actual;4;subgroup;F01.b;Pénzügyi és költségvetési tevékenységek és szolgáltatások;229283,6;2001/zarszamadas-tervezet
+2000;Zarszamadas;2000. évi teljesítés;actual;5;subgroup;F01.c;Külügyek;37058,9;2001/zarszamadas-tervezet
+2000;Zarszamadas;2000. évi teljesítés;actual;6;subgroup;F01.d;Alapkutatás;19718,2;2001/zarszamadas-tervezet
+2000;Zarszamadas;2000. évi teljesítés;actual;7;subgroup;F01.e;Műszaki fejlesztés;5733,3;2001/zarszamadas-tervezet
+2000;Zarszamadas;2000. évi teljesítés;actual;8;subgroup;F01.f;Egyéb általános közösségi szolgáltatások;22531,8;2001/zarszamadas-tervezet
+2000;Zarszamadas;2000. évi teljesítés;actual;9;main_group;F02;Védelem;142512,4;2001/zarszamadas-tervezet
+2000;Zarszamadas;2000. évi teljesítés;actual;10;main_group;F03;Rendvédelem és közbiztonság;212412,1;2001/zarszamadas-tervezet
+2000;Zarszamadas;2000. évi teljesítés;actual;11;subgroup;F03.a;Igazságszolgáltatás;35144;2001/zarszamadas-tervezet
+2000;Zarszamadas;2000. évi teljesítés;actual;12;subgroup;F03.b;Rend- és közbiztonság;134065,3;2001/zarszamadas-tervezet
+2000;Zarszamadas;2000. évi teljesítés;actual;13;subgroup;F03.c;Tűzvédelem;24344,4;2001/zarszamadas-tervezet
+2000;Zarszamadas;2000. évi teljesítés;actual;14;subgroup;F03.d;Büntetésvégrehajtási igazgatás és működtetés;18858,4;2001/zarszamadas-tervezet
+2000;Zarszamadas;2000. évi teljesítés;actual;15;function;;JÓLÉTI FUNKCIÓK;3452935;2001/zarszamadas-tervezet
+2000;Zarszamadas;2000. évi teljesítés;actual;16;main_group;F04;Oktatási tevékenységek és szolgáltatások;628950,2;2001/zarszamadas-tervezet
+2000;Zarszamadas;2000. évi teljesítés;actual;17;subgroup;F04.a;Iskolai előkészítés és alapfokú oktatás;192402,5;2001/zarszamadas-tervezet
+2000;Zarszamadas;2000. évi teljesítés;actual;18;subgroup;F04.b;Középfokú oktatás;69768,2;2001/zarszamadas-tervezet
+2000;Zarszamadas;2000. évi teljesítés;actual;19;subgroup;F04.c;Felsőfokú oktatás;192342,3;2001/zarszamadas-tervezet
+2000;Zarszamadas;2000. évi teljesítés;actual;20;subgroup;F04.d;Egyéb oktatás;174437,2;2001/zarszamadas-tervezet
+2000;Zarszamadas;2000. évi teljesítés;actual;21;main_group;F05;Egészségügy;551671,3;2001/zarszamadas-tervezet
+2000;Zarszamadas;2000. évi teljesítés;actual;22;subgroup;F05.a;Kórházi tevékenységek és szolgáltatások;235649,4;2001/zarszamadas-tervezet
+2000;Zarszamadas;2000. évi teljesítés;actual;23;subgroup;F05.b;Háziorvosi és gyermekorvosi szolgálat;44947,4;2001/zarszamadas-tervezet
+2000;Zarszamadas;2000. évi teljesítés;actual;24;subgroup;F05.c;Rendelői, orvosi, fogorvosi ellátás;69231,4;2001/zarszamadas-tervezet
+2000;Zarszamadas;2000. évi teljesítés;actual;25;subgroup;F05.d;Közegészségügyi tevékenységek és szolgáltatások;17318,1;2001/zarszamadas-tervezet
+2000;Zarszamadas;2000. évi teljesítés;actual;26;subgroup;F05.e;Egyéb egészségügy;184525;2001/zarszamadas-tervezet
+2000;Zarszamadas;2000. évi teljesítés;actual;27;main_group;F06;Társadalombiztosítási és jóléti szolgáltatások;1893593,8;2001/zarszamadas-tervezet
+2000;Zarszamadas;2000. évi teljesítés;actual;28;subgroup;F06.a;Táppénz, anyasági vagy ideiglenes rokkantsági juttatások;223661,1;2001/zarszamadas-tervezet
+2000;Zarszamadas;2000. évi teljesítés;actual;29;subgroup;F06.b;Nyugellátások;1051406,2;2001/zarszamadas-tervezet
+2000;Zarszamadas;2000. évi teljesítés;actual;30;subgroup;F06.c;Egyéb társadalombiztosítási ellátások;55352,8;2001/zarszamadas-tervezet
+2000;Zarszamadas;2000. évi teljesítés;actual;31;subgroup;F06.d;Munkanélküli ellátások;64126,8;2001/zarszamadas-tervezet
+2000;Zarszamadas;2000. évi teljesítés;actual;32;subgroup;F06.e;Családi pótlékok és gyermekeknek járó juttatások;205619,3;2001/zarszamadas-tervezet
+2000;Zarszamadas;2000. évi teljesítés;actual;33;subgroup;F06.f;Egyéb szociális támogatások;167410,3;2001/zarszamadas-tervezet
+2000;Zarszamadas;2000. évi teljesítés;actual;34;subgroup;F06.g;Szociális és jóléti intézményi szolgáltatások;126017,3;2001/zarszamadas-tervezet
+2000;Zarszamadas;2000. évi teljesítés;actual;35;main_group;F07;Lakásügyek, települési és közösségi tevékenységek és szolgáltatások;207079,4;2001/zarszamadas-tervezet
+2000;Zarszamadas;2000. évi teljesítés;actual;36;main_group;F08;Szórakoztató, kulturális, vallási tevékenységek és szolgáltatások;171640,3;2001/zarszamadas-tervezet
+2000;Zarszamadas;2000. évi teljesítés;actual;37;subgroup;F08.a;Sport és szabadidős tevékenységek és szolgáltatások;33193,4;2001/zarszamadas-tervezet
+2000;Zarszamadas;2000. évi teljesítés;actual;38;subgroup;F08.b;Kulturális tevékenységek és szolgáltatások;95798,7;2001/zarszamadas-tervezet
+2000;Zarszamadas;2000. évi teljesítés;actual;39;subgroup;F08.c;Műsorszórási és kiadói tevékenységek és szolgáltatások;12667,2;2001/zarszamadas-tervezet
+2000;Zarszamadas;2000. évi teljesítés;actual;40;subgroup;F08.d;Hitéleti tevékenységek;17067,3;2001/zarszamadas-tervezet
+2000;Zarszamadas;2000. évi teljesítés;actual;41;subgroup;F08.e;Párttevékenységek;2486,9;2001/zarszamadas-tervezet
+2000;Zarszamadas;2000. évi teljesítés;actual;42;subgroup;F08.f;Egyéb közösségi és kulturális tevékenységek;10426,8;2001/zarszamadas-tervezet
+2000;Zarszamadas;2000. évi teljesítés;actual;43;function;;GAZDASÁGI FUNKCIÓK;813223,7;2001/zarszamadas-tervezet
+2000;Zarszamadas;2000. évi teljesítés;actual;44;main_group;F09;Tüzelő- és üzemanyag, valamint energiaellátási feladatok;2378,4;2001/zarszamadas-tervezet
+2000;Zarszamadas;2000. évi teljesítés;actual;45;main_group;F10;Mező-, erdő- , hal- és vadgazdálkodás;188608,5;2001/zarszamadas-tervezet
+2000;Zarszamadas;2000. évi teljesítés;actual;46;main_group;F11;Bányászat és ipar;23716,5;2001/zarszamadas-tervezet
+2000;Zarszamadas;2000. évi teljesítés;actual;47;main_group;F12;Közlekedési és távközlési tevékenységek és szolgáltatások;298982,6;2001/zarszamadas-tervezet
+2000;Zarszamadas;2000. évi teljesítés;actual;48;subgroup;F12.a;Közúti közlekedési tevékenységek;175033,2;2001/zarszamadas-tervezet
+2000;Zarszamadas;2000. évi teljesítés;actual;49;subgroup;F12.b;Vasúti közlekedésügyek és szolgáltatások;78440,1;2001/zarszamadas-tervezet
+2000;Zarszamadas;2000. évi teljesítés;actual;50;subgroup;F12.c;Távközlés;13918;2001/zarszamadas-tervezet
+2000;Zarszamadas;2000. évi teljesítés;actual;51;subgroup;F12.d;Egyéb közlekedés és szállítás;31591,3;2001/zarszamadas-tervezet
+2000;Zarszamadas;2000. évi teljesítés;actual;52;main_group;F13;Egyéb gazdasági tevékenységek és szolgáltatások;196800,8;2001/zarszamadas-tervezet
+2000;Zarszamadas;2000. évi teljesítés;actual;53;subgroup;F13.a;Többcélú fejlesztési témák tevékenységei és szolgáltatásai;33361,3;2001/zarszamadas-tervezet
+2000;Zarszamadas;2000. évi teljesítés;actual;54;subgroup;F13.b;További egyéb gazdasági tevékenységek és szolgáltatások;163439,5;2001/zarszamadas-tervezet
+2000;Zarszamadas;2000. évi teljesítés;actual;55;main_group;F14;Környezetvédelem;102736,9;2001/zarszamadas-tervezet
+2000;Zarszamadas;2000. évi teljesítés;actual;56;function;;ÁLLAMADÓSSÁG-KEZELÉS;801247,4;2001/zarszamadas-tervezet
+2000;Zarszamadas;2000. évi teljesítés;actual;57;main_group;F15;Államadósság-kezelés, államháztartás;801247,4;2001/zarszamadas-tervezet
+2000;Zarszamadas;2000. évi teljesítés;actual;58;function;;FUNKCIÓBA NEM SOROLHATÓ TÉTELEK;25810,1;2001/zarszamadas-tervezet
+2000;Zarszamadas;2000. évi teljesítés;actual;59;main_group;F16;A főcsoportokba nem sorolható tételek;25810,1;2001/zarszamadas-tervezet
+2000;Zarszamadas;2000. évi teljesítés;actual;60;total;;Kiadások összesen;6048285,1;2001/zarszamadas-tervezet
+2000;Zarszamadas;2000. évi teljesítés;actual;61;total;;Bevételek összesen;5606125,9;2001/zarszamadas-tervezet
+2000;Zarszamadas;2000. évi teljesítés;actual;62;total;;Egyenleg;-442159,2;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi eredeti előirányzat;original_plan;1;function;;ÁLLAMI MŰKÖDÉSI FUNKCIÓK;921385,1;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi eredeti előirányzat;original_plan;2;main_group;F01;Általános közösségi szolgáltatások;499369,4;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi eredeti előirányzat;original_plan;3;subgroup;F01.a;Törvényhozó és végrehajtó szervek;248768,6;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi eredeti előirányzat;original_plan;4;subgroup;F01.b;Pénzügyi és költségvetési tevékenységek és szolgáltatások;120861,9;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi eredeti előirányzat;original_plan;5;subgroup;F01.c;Külügyek;40188,2;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi eredeti előirányzat;original_plan;6;subgroup;F01.d;Alapkutatás;35293,1;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi eredeti előirányzat;original_plan;7;subgroup;F01.e;Műszaki fejlesztés;12652;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi eredeti előirányzat;original_plan;8;subgroup;F01.f;Egyéb általános közösségi szolgáltatások;41605,6;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi eredeti előirányzat;original_plan;9;main_group;F02;Védelem;182567,5;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi eredeti előirányzat;original_plan;10;main_group;F03;Rendvédelem és közbiztonság;239448,2;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi eredeti előirányzat;original_plan;11;subgroup;F03.a;Igazságszolgáltatás;42282,1;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi eredeti előirányzat;original_plan;12;subgroup;F03.b;Rend- és közbiztonság;155250,2;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi eredeti előirányzat;original_plan;13;subgroup;F03.c;Tűzvédelem;21600,1;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi eredeti előirányzat;original_plan;14;subgroup;F03.d;Büntetésvégrehajtási igazgatás és működtetés;20315,8;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi eredeti előirányzat;original_plan;15;function;;JÓLÉTI FUNKCIÓK;3714545,2;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi eredeti előirányzat;original_plan;16;main_group;F04;Oktatási tevékenységek és szolgáltatások;664777,1;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi eredeti előirányzat;original_plan;17;subgroup;F04.a;Iskolai előkészítés és alapfokú oktatás;213880,9;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi eredeti előirányzat;original_plan;18;subgroup;F04.b;Középfokú oktatás;66017,9;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi eredeti előirányzat;original_plan;19;subgroup;F04.c;Felsőfokú oktatás;204533,6;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi eredeti előirányzat;original_plan;20;subgroup;F04.d;Egyéb oktatás;180344,7;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi eredeti előirányzat;original_plan;21;main_group;F05;Egészségügy;607805,8;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi eredeti előirányzat;original_plan;22;subgroup;F05.a;Kórházi tevékenységek és szolgáltatások;256223;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi eredeti előirányzat;original_plan;23;subgroup;F05.b;Háziorvosi és gyermekorvosi szolgálat;51126,7;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi eredeti előirányzat;original_plan;24;subgroup;F05.c;Rendelői, orvosi, fogorvosi ellátás;79309,6;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi eredeti előirányzat;original_plan;25;subgroup;F05.d;Közegészségügyi tevékenységek és szolgáltatások;35768,1;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi eredeti előirányzat;original_plan;26;subgroup;F05.e;Egyéb egészségügy;185378,4;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi eredeti előirányzat;original_plan;27;main_group;F06;Társadalombiztosítási és jóléti szolgáltatások;2085380,3;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi eredeti előirányzat;original_plan;28;subgroup;F06.a;Táppénz, anyasági vagy ideiglenes rokkantsági juttatások;237694,8;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi eredeti előirányzat;original_plan;29;subgroup;F06.b;Nyugellátások;1161983;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi eredeti előirányzat;original_plan;30;subgroup;F06.c;Egyéb társadalombiztosítási ellátások;50191,3;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi eredeti előirányzat;original_plan;31;subgroup;F06.d;Munkanélküli ellátások;63919,5;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi eredeti előirányzat;original_plan;32;subgroup;F06.e;Családi pótlékok és gyermekeknek járó juttatások;255369;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi eredeti előirányzat;original_plan;33;subgroup;F06.f;Egyéb szociális támogatások;195319,9;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi eredeti előirányzat;original_plan;34;subgroup;F06.g;Szociális és jóléti intézményi szolgáltatások;120902,8;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi eredeti előirányzat;original_plan;35;main_group;F07;Lakásügyek, települési és közösségi tevékenységek és szolgáltatások;180887,8;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi eredeti előirányzat;original_plan;36;main_group;F08;Szórakoztató, kulturális, vallási tevékenységek és szolgáltatások;175694,2;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi eredeti előirányzat;original_plan;37;subgroup;F08.a;Sport és szabadidős tevékenységek és szolgáltatások;32749;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi eredeti előirányzat;original_plan;38;subgroup;F08.b;Kulturális tevékenységek és szolgáltatások;94893,2;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi eredeti előirányzat;original_plan;39;subgroup;F08.c;Műsorszórási és kiadói tevékenységek és szolgáltatások;11571,7;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi eredeti előirányzat;original_plan;40;subgroup;F08.d;Hitéleti tevékenységek;21934,5;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi eredeti előirányzat;original_plan;41;subgroup;F08.e;Párttevékenységek;2549;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi eredeti előirányzat;original_plan;42;subgroup;F08.f;Egyéb közösségi és kulturális tevékenységek;11996,8;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi eredeti előirányzat;original_plan;43;function;;GAZDASÁGI FUNKCIÓK;1005694,5;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi eredeti előirányzat;original_plan;44;main_group;F09;Tüzelő- és üzemanyag, valamint energiaellátási feladatok;3241,9;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi eredeti előirányzat;original_plan;45;main_group;F10;Mező-, erdő- , hal- és vadgazdálkodás;257762;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi eredeti előirányzat;original_plan;46;main_group;F11;Bányászat és ipar;19959,9;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi eredeti előirányzat;original_plan;47;main_group;F12;Közlekedési és távközlési tevékenységek és szolgáltatások;325977,7;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi eredeti előirányzat;original_plan;48;subgroup;F12.a;Közúti közlekedési tevékenységek;154680;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi eredeti előirányzat;original_plan;49;subgroup;F12.b;Vasúti közlekedésügyek és szolgáltatások;88653;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi eredeti előirányzat;original_plan;50;subgroup;F12.c;Távközlés;40938,6;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi eredeti előirányzat;original_plan;51;subgroup;F12.d;Egyéb közlekedés és szállítás;41706,1;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi eredeti előirányzat;original_plan;52;main_group;F13;Egyéb gazdasági tevékenységek és szolgáltatások;248881,4;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi eredeti előirányzat;original_plan;53;subgroup;F13.a;Többcélú fejlesztési témák tevékenységei és szolgáltatásai;76678;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi eredeti előirányzat;original_plan;54;subgroup;F13.b;További egyéb gazdasági tevékenységek és szolgáltatások;172203,4;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi eredeti előirányzat;original_plan;55;main_group;F14;Környezetvédelem;149871,6;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi eredeti előirányzat;original_plan;56;function;;ÁLLAMADÓSSÁG-KEZELÉS;739537,7;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi eredeti előirányzat;original_plan;57;main_group;F15;Államadósság-kezelés, államháztartás;739537,7;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi eredeti előirányzat;original_plan;58;function;;FUNKCIÓBA NEM SOROLHATÓ TÉTELEK;113597,3;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi eredeti előirányzat;original_plan;59;main_group;F16;A főcsoportokba nem sorolható tételek;113597,3;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi eredeti előirányzat;original_plan;60;total;;Kiadások összesen;6494759,8;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi eredeti előirányzat;original_plan;61;total;;Bevételek összesen;6001515,3;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi eredeti előirányzat;original_plan;62;total;;Egyenleg;-493244,5;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi teljesítés;actual;1;function;;ÁLLAMI MŰKÖDÉSI FUNKCIÓK;1103744,4;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi teljesítés;actual;2;main_group;F01;Általános közösségi szolgáltatások;672527,5;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi teljesítés;actual;3;subgroup;F01.a;Törvényhozó és végrehajtó szervek;362946,1;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi teljesítés;actual;4;subgroup;F01.b;Pénzügyi és költségvetési tevékenységek és szolgáltatások;198416,7;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi teljesítés;actual;5;subgroup;F01.c;Külügyek;44717,2;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi teljesítés;actual;6;subgroup;F01.d;Alapkutatás;26543,4;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi teljesítés;actual;7;subgroup;F01.e;Műszaki fejlesztés;6685,5;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi teljesítés;actual;8;subgroup;F01.f;Egyéb általános közösségi szolgáltatások;33218,6;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi teljesítés;actual;9;main_group;F02;Védelem;173180,1;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi teljesítés;actual;10;main_group;F03;Rendvédelem és közbiztonság;258036,8;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi teljesítés;actual;11;subgroup;F03.a;Igazságszolgáltatás;41969,3;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi teljesítés;actual;12;subgroup;F03.b;Rend- és közbiztonság;148399,9;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi teljesítés;actual;13;subgroup;F03.c;Tűzvédelem;44511,9;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi teljesítés;actual;14;subgroup;F03.d;Büntetésvégrehajtási igazgatás és működtetés;23155,7;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi teljesítés;actual;15;function;;JÓLÉTI FUNKCIÓK;3975248,7;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi teljesítés;actual;16;main_group;F04;Oktatási tevékenységek és szolgáltatások;736026,2;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi teljesítés;actual;17;subgroup;F04.a;Iskolai előkészítés és alapfokú oktatás;225257,6;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi teljesítés;actual;18;subgroup;F04.b;Középfokú oktatás;83965,7;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi teljesítés;actual;19;subgroup;F04.c;Felsőfokú oktatás;225803,2;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi teljesítés;actual;20;subgroup;F04.d;Egyéb oktatás;200999,7;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi teljesítés;actual;21;main_group;F05;Egészségügy;622677,5;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi teljesítés;actual;22;subgroup;F05.a;Kórházi tevékenységek és szolgáltatások;244976,7;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi teljesítés;actual;23;subgroup;F05.b;Háziorvosi és gyermekorvosi szolgálat;50058,5;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi teljesítés;actual;24;subgroup;F05.c;Rendelői, orvosi, fogorvosi ellátás;80425,5;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi teljesítés;actual;25;subgroup;F05.d;Közegészségügyi tevékenységek és szolgáltatások;29065,3;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi teljesítés;actual;26;subgroup;F05.e;Egyéb egészségügy;218151,5;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi teljesítés;actual;27;main_group;F06;Társadalombiztosítási és jóléti szolgáltatások;2177014;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi teljesítés;actual;28;subgroup;F06.a;Táppénz, anyasági vagy ideiglenes rokkantsági juttatások;268729,7;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi teljesítés;actual;29;subgroup;F06.b;Nyugellátások;1213379,7;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi teljesítés;actual;30;subgroup;F06.c;Egyéb társadalombiztosítási ellátások;54097,9;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi teljesítés;actual;31;subgroup;F06.d;Munkanélküli ellátások;49333,2;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi teljesítés;actual;32;subgroup;F06.e;Családi pótlékok és gyermekeknek járó juttatások;248613,1;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi teljesítés;actual;33;subgroup;F06.f;Egyéb szociális támogatások;197171,2;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi teljesítés;actual;34;subgroup;F06.g;Szociális és jóléti intézményi szolgáltatások;145689,2;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi teljesítés;actual;35;main_group;F07;Lakásügyek, települési és közösségi tevékenységek és szolgáltatások;225244,7;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi teljesítés;actual;36;main_group;F08;Szórakoztató, kulturális, vallási tevékenységek és szolgáltatások;214286,3;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi teljesítés;actual;37;subgroup;F08.a;Sport és szabadidős tevékenységek és szolgáltatások;43135,4;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi teljesítés;actual;38;subgroup;F08.b;Kulturális tevékenységek és szolgáltatások;108440,9;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi teljesítés;actual;39;subgroup;F08.c;Műsorszórási és kiadói tevékenységek és szolgáltatások;26227,2;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi teljesítés;actual;40;subgroup;F08.d;Hitéleti tevékenységek;22532,7;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi teljesítés;actual;41;subgroup;F08.e;Párttevékenységek;2548,3;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi teljesítés;actual;42;subgroup;F08.f;Egyéb közösségi és kulturális tevékenységek;11401,8;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi teljesítés;actual;43;function;;GAZDASÁGI FUNKCIÓK;934319,5;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi teljesítés;actual;44;main_group;F09;Tüzelő- és üzemanyag, valamint energiaellátási feladatok;2497,7;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi teljesítés;actual;45;main_group;F10;Mező-, erdő- , hal- és vadgazdálkodás;257116,3;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi teljesítés;actual;46;main_group;F11;Bányászat és ipar;40088,4;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi teljesítés;actual;47;main_group;F12;Közlekedési és távközlési tevékenységek és szolgáltatások;284007;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi teljesítés;actual;48;subgroup;F12.a;Közúti közlekedési tevékenységek;151175,1;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi teljesítés;actual;49;subgroup;F12.b;Vasúti közlekedésügyek és szolgáltatások;76542,6;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi teljesítés;actual;50;subgroup;F12.c;Távközlés;18036,2;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi teljesítés;actual;51;subgroup;F12.d;Egyéb közlekedés és szállítás;38253,1;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi teljesítés;actual;52;main_group;F13;Egyéb gazdasági tevékenységek és szolgáltatások;208862,6;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi teljesítés;actual;53;subgroup;F13.a;Többcélú fejlesztési témák tevékenységei és szolgáltatásai;39417,8;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi teljesítés;actual;54;subgroup;F13.b;További egyéb gazdasági tevékenységek és szolgáltatások;169444,8;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi teljesítés;actual;55;main_group;F14;Környezetvédelem;141747,5;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi teljesítés;actual;56;function;;ÁLLAMADÓSSÁG-KEZELÉS;719120,4;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi teljesítés;actual;57;main_group;F15;Államadósság-kezelés, államháztartás;719120,4;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi teljesítés;actual;58;function;;FUNKCIÓBA NEM SOROLHATÓ TÉTELEK;37224,8;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi teljesítés;actual;59;main_group;F16;A főcsoportokba nem sorolható tételek;37224,8;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi teljesítés;actual;60;total;;Kiadások összesen;6769657,8;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi teljesítés;actual;61;total;;Bevételek összesen;6336895,2;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi teljesítés;actual;62;total;;Egyenleg;-432762,6;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi törvényi módosított ei.;modified_plan;1;function;;ÁLLAMI MŰKÖDÉSI FUNKCIÓK;965485,1;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi törvényi módosított ei.;modified_plan;2;main_group;F01;Általános közösségi szolgáltatások;543469,4;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi törvényi módosított ei.;modified_plan;3;subgroup;F01.a;Törvényhozó és végrehajtó szervek;248768,6;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi törvényi módosított ei.;modified_plan;4;subgroup;F01.b;Pénzügyi és költségvetési tevékenységek és szolgáltatások;164961,9;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi törvényi módosított ei.;modified_plan;5;subgroup;F01.c;Külügyek;40188,2;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi törvényi módosított ei.;modified_plan;6;subgroup;F01.d;Alapkutatás;35293,1;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi törvényi módosított ei.;modified_plan;7;subgroup;F01.e;Műszaki fejlesztés;12652;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi törvényi módosított ei.;modified_plan;8;subgroup;F01.f;Egyéb általános közösségi szolgáltatások;41605,6;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi törvényi módosított ei.;modified_plan;9;main_group;F02;Védelem;182567,5;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi törvényi módosított ei.;modified_plan;10;main_group;F03;Rendvédelem és közbiztonság;239448,2;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi törvényi módosított ei.;modified_plan;11;subgroup;F03.a;Igazságszolgáltatás;42282,1;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi törvényi módosított ei.;modified_plan;12;subgroup;F03.b;Rend- és közbiztonság;155250,2;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi törvényi módosított ei.;modified_plan;13;subgroup;F03.c;Tűzvédelem;21600,1;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi törvényi módosított ei.;modified_plan;14;subgroup;F03.d;Büntetésvégrehajtási igazgatás és működtetés;20315,8;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi törvényi módosított ei.;modified_plan;15;function;;JÓLÉTI FUNKCIÓK;3838225,2;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi törvényi módosított ei.;modified_plan;16;main_group;F04;Oktatási tevékenységek és szolgáltatások;664777,1;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi törvényi módosított ei.;modified_plan;17;subgroup;F04.a;Iskolai előkészítés és alapfokú oktatás;213880,9;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi törvényi módosított ei.;modified_plan;18;subgroup;F04.b;Középfokú oktatás;66017,9;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi törvényi módosított ei.;modified_plan;19;subgroup;F04.c;Felsőfokú oktatás;204533,6;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi törvényi módosított ei.;modified_plan;20;subgroup;F04.d;Egyéb oktatás;180344,7;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi törvényi módosított ei.;modified_plan;21;main_group;F05;Egészségügy;645435,8;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi törvényi módosított ei.;modified_plan;22;subgroup;F05.a;Kórházi tevékenységek és szolgáltatások;256223;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi törvényi módosított ei.;modified_plan;23;subgroup;F05.b;Háziorvosi és gyermekorvosi szolgálat;51276,7;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi törvényi módosított ei.;modified_plan;24;subgroup;F05.c;Rendelői, orvosi, fogorvosi ellátás;80289,6;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi törvényi módosított ei.;modified_plan;25;subgroup;F05.d;Közegészségügyi tevékenységek és szolgáltatások;35768,1;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi törvényi módosított ei.;modified_plan;26;subgroup;F05.e;Egyéb egészségügy;221878,4;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi törvényi módosított ei.;modified_plan;27;main_group;F06;Társadalombiztosítási és jóléti szolgáltatások;2152430,3;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi törvényi módosított ei.;modified_plan;28;subgroup;F06.a;Táppénz, anyasági vagy ideiglenes rokkantsági juttatások;249511,4;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi törvényi módosított ei.;modified_plan;29;subgroup;F06.b;Nyugellátások;1217216,4;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi törvényi módosított ei.;modified_plan;30;subgroup;F06.c;Egyéb társadalombiztosítási ellátások;50191,3;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi törvényi módosított ei.;modified_plan;31;subgroup;F06.d;Munkanélküli ellátások;63919,5;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi törvényi módosított ei.;modified_plan;32;subgroup;F06.e;Családi pótlékok és gyermekeknek járó juttatások;255369;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi törvényi módosított ei.;modified_plan;33;subgroup;F06.f;Egyéb szociális támogatások;195319,9;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi törvényi módosított ei.;modified_plan;34;subgroup;F06.g;Szociális és jóléti intézményi szolgáltatások;120902,8;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi törvényi módosított ei.;modified_plan;35;main_group;F07;Lakásügyek, települési és közösségi tevékenységek és szolgáltatások;185887,8;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi törvényi módosított ei.;modified_plan;36;main_group;F08;Szórakoztató, kulturális, vallási tevékenységek és szolgáltatások;189694,2;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi törvényi módosított ei.;modified_plan;37;subgroup;F08.a;Sport és szabadidős tevékenységek és szolgáltatások;32749;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi törvényi módosított ei.;modified_plan;38;subgroup;F08.b;Kulturális tevékenységek és szolgáltatások;94893,2;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi törvényi módosított ei.;modified_plan;39;subgroup;F08.c;Műsorszórási és kiadói tevékenységek és szolgáltatások;25571,7;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi törvényi módosított ei.;modified_plan;40;subgroup;F08.d;Hitéleti tevékenységek;21934,5;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi törvényi módosított ei.;modified_plan;41;subgroup;F08.e;Párttevékenységek;2549;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi törvényi módosított ei.;modified_plan;42;subgroup;F08.f;Egyéb közösségi és kulturális tevékenységek;11996,8;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi törvényi módosított ei.;modified_plan;43;function;;GAZDASÁGI FUNKCIÓK;1027073,7;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi törvényi módosított ei.;modified_plan;44;main_group;F09;Tüzelő- és üzemanyag, valamint energiaellátási feladatok;3241,9;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi törvényi módosított ei.;modified_plan;45;main_group;F10;Mező-, erdő- , hal- és vadgazdálkodás;259141,2;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi törvényi módosított ei.;modified_plan;46;main_group;F11;Bányászat és ipar;19959,9;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi törvényi módosított ei.;modified_plan;47;main_group;F12;Közlekedési és távközlési tevékenységek és szolgáltatások;325977,7;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi törvényi módosított ei.;modified_plan;48;subgroup;F12.a;Közúti közlekedési tevékenységek;154680;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi törvényi módosított ei.;modified_plan;49;subgroup;F12.b;Vasúti közlekedésügyek és szolgáltatások;88653;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi törvényi módosított ei.;modified_plan;50;subgroup;F12.c;Távközlés;40938,6;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi törvényi módosított ei.;modified_plan;51;subgroup;F12.d;Egyéb közlekedés és szállítás;41706,1;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi törvényi módosított ei.;modified_plan;52;main_group;F13;Egyéb gazdasági tevékenységek és szolgáltatások;268881,4;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi törvényi módosított ei.;modified_plan;53;subgroup;F13.a;Többcélú fejlesztési témák tevékenységei és szolgáltatásai;91678;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi törvényi módosított ei.;modified_plan;54;subgroup;F13.b;További egyéb gazdasági tevékenységek és szolgáltatások;177203,4;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi törvényi módosított ei.;modified_plan;55;main_group;F14;Környezetvédelem;149871,6;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi törvényi módosított ei.;modified_plan;56;function;;ÁLLAMADÓSSÁG-KEZELÉS;739537,7;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi törvényi módosított ei.;modified_plan;57;main_group;F15;Államadósság-kezelés, államháztartás;739537,7;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi törvényi módosított ei.;modified_plan;58;function;;FUNKCIÓBA NEM SOROLHATÓ TÉTELEK;169548,3;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi törvényi módosított ei.;modified_plan;59;main_group;F16;A főcsoportokba nem sorolható tételek;169548,3;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi törvényi módosított ei.;modified_plan;60;total;;Kiadások összesen;6739870;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi törvényi módosított ei.;modified_plan;61;total;;Bevételek összesen;6247375,5;2001/zarszamadas-tervezet
+2001;Zarszamadas;2001. évi törvényi módosított ei.;modified_plan;62;total;;Egyenleg;-492494,5;2001/zarszamadas-tervezet
 2002;Tervezet;2002. évi teljesítés;actual;1;function;;ÁLLAMI MŰKÖDÉSI FUNKCIÓK;1446821,8;2004/koltsegvetes-tervezet
 2002;Tervezet;2002. évi teljesítés;actual;2;main_group;F01;Általános közösségi szolgáltatások;847533,4;2004/koltsegvetes-tervezet
 2002;Tervezet;2002. évi teljesítés;actual;3;subgroup;F01.a;Törvényhozó és végrehajtó szervek;496068,2;2004/koltsegvetes-tervezet

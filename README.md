@@ -1,4 +1,4 @@
-Magyar költségvetések adatbázisa (1946–2026)
+Magyar költségvetések adatbázisa (1949–2026)
 ================
 Ferenci Tamás (<https://www.medstat.hu/>)<br>
 2026. október 31.
@@ -135,7 +135,7 @@ Az összes költségvetés letöltése után – a teljes adatbázist lásd a
 következő pontban – kinyertem a mellékletekből a funkcionális kiadások
 tábláit, és egyetlen, harmonizált formátumú, az összes elérhető múltbeli
 adatot egységes struktúrában tartalmazó, gépi úton feldolgozható
-táblázattá alakítottam. Az idősor 2003-ban indul, mert a korábbi éveknél
+táblázattá alakítottam. Az idősor 2000-ben indul, mert a korábbi éveknél
 nem találtam meg a költségvetés azon mellékleteit, ami a funkcionális
 bontást tartalmazná (nagyon régre visszamenve valószínűleg nem is
 készült ilyen). A táblázat a konszolidált adatokat tartalmazza (ez azt
@@ -249,14 +249,17 @@ később nyugodtak lehessünk, hogy bármelyik használható azonosításra).
 
 ## Adatbázis
 
-A táblázat az 1946-os költségvetéssel indul – költségvetése ugyan már az
+A táblázat az 1949-es költségvetéssel indul – költségvetése ugyan már az
 Osztrák–Magyar Monarchiának [is
 volt](https://library.hungaricana.hu/hu/collection/orszaggyulesi_konyvtar_dtt_DualKozosBizKoltsgv_Koltsgv/),
 és bár tudom, hogy gazdaságtörténészek néha még olyanokat is
 [vizsgálnak](https://www.rug.nl/ggdc/historicaldevelopment/maddison/),
 mint az egy főre jutó bruttó hazai termék a Római Birodalomban, én most
 azért odáig nem akartam visszamenni, amikor már az ország pénzneme (és
-idővel még a területe is) más volt.
+idővel még a területe is) más volt. Azért 1949-ben kezdem, mert az
+1946/47-es és az 1947/48-as költségvetések még nem tárgyérvre
+vonatkoztak, így 1949 az első év, amikor a ma szokásos éves költségvetés
+elkészült.
 
 | Év | Költségvetés tervezet, indoklás, melléklet | Költségvetés jogszabály | Módosítás | Zárszámadás tervezet, indoklás, melléklet | Zárszámadás jogszabály |
 |---:|:---|:---|:---|:---|:---|
