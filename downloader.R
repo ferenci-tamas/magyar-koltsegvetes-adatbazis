@@ -16,6 +16,7 @@ for(yr in LinkData[LinkKoltsegvetes != "" & Ev >= 1995]$Ev) {
 }
 # --no-parent https://www.parlament.hu/irom38/06571/
 
+qpdf::pdf_subset("./dokumentumok/2027/koltsegvetes-tervezet/00950KIEGSZ001.pdf", 11, "./dokumentumok/2027/koltsegvetes-tervezet/fu__kon.pdf")
 qpdf::pdf_subset("./dokumentumok/2026/koltsegvetes-tervezet/11864KIEGSZ001.pdf", 14, "./dokumentumok/2026/koltsegvetes-tervezet/fu__kon.pdf")
 qpdf::pdf_subset("./dokumentumok/2025/koltsegvetes-tervezet/09894KIEGSZ001.pdf", 18, "./dokumentumok/2025/koltsegvetes-tervezet/fu__kon.pdf")
 qpdf::pdf_subset("./dokumentumok/2024/koltsegvetes-tervezet/2024kv_altindmell.pdf", 14, "./dokumentumok/2024/koltsegvetes-tervezet/fu__kon.pdf")

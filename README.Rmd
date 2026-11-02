@@ -1,5 +1,5 @@
 ---
-title: "Magyar költségvetések adatbázisa (1949--2026)"
+title: "Magyar költségvetések adatbázisa (1949--2027)"
 author: Ferenci Tamás (https://www.medstat.hu/)<br>
 date: "`r gsub('  ', ' ', format(Sys.time(), '%Y. %B %e.'))`"
 lang: hu-HU
@@ -58,7 +58,7 @@ A fenti módosításokkal a név is már egyértelműen azonosítja a csoportoka
 A következő dolgok számomra nem stimmelnek, de nem ismerem az okukat, és nincs rájuk magyarázatom:
 
 - A legnagyobb problémám, hogy bizonyos esetekben *ugyanazon* adatra is más számot adnak meg a különböző évek táblázatai. Tehát nem arról van szó, hogy T. év előirányzata nem egyezik a zárszámadásbeli teljesítéssel, vagy a módosított előirányzattal, ez magától értetődő, hanem arról, hogy *ugyanarról* az előirányzatról más számot közöl az T. évi és az T+1. évi táblázat. Miközben az előirányzat az, ami az eredetileg tervezett érték, ez nem változhatna meg attól, hogy később írjuk le az értékét.
-- A 2016. évi zárszámadásban az államháztartás konszolidált funkcionális kiadásai közül hiányzik az F01.e kategória (az F01.d után az F01.f jön). Furcsa lenne, hogy egyszerűen kihagyjanak egy sort, de gyanúsan ez történt, mert a funkcionális mérlegben szerepel, és a megoszlások között is (de érdekes módon a GDP-arányos megoszlásban megint csak hiányzik). Elképzelhető, hogy a sor végig üres volt, és ezért hagyták el (bár más esetekben -- helyesen -- ilyenkor is megtartották, erre példa a 2015-ös zárszámadás).
+- Bizonyos esetekben (pl. 2016. évi zárszámadás) az államháztartás konszolidált funkcionális kiadásai közül hiányzik az F01.e kategória (az F01.d után az F01.f jön). Furcsa lenne, hogy egyszerűen kihagyjanak egy sort, de gyanúsan ez történt, mert a funkcionális mérlegben szerepel, és a megoszlások között is. A legvalószínűbb magyarázat, hogy a sor végig üres, azaz, ha mindent jól értek, 0 forintos volt, és ezért hagyták el (bár más esetekben -- helyesen -- ilyenkor is megtartották, erre példa a 2015-ös zárszámadás).
 - A 2003-as és 2004-es tervezetben az államháztartás konszolidált funkcionális kiadásai tábla azt állítja magáról a fejlécben, hogy "ESA '95 módszertan szerint" készült. Ez furcsa, mert normális körülmények között ez azt jelentené, hogy eredményszemléletű, miközben ez a tábla mindig pénzforgalmi szemléletű.
 - A 2003. évi tervezetben az államháztartás konszolidált funkcionális kiadásainak főcsoportjait összeadva 8 305 222,6 millió forintot kapunk, a feltüntetett érték viszont 8 310 600,4 millió forint. Nagyon nehéz elhinni, hogy a költségvetésben valamit rosszul adjanak össze (pláne, hogy nyilván számítógéppel végzik, nem kézzel), de jelenleg nincs jobb magyarázatom arra, hogy mi történhetett itt. Annyi mindenesetre elmondható, hogy a végén lévő egyenleg 8 310 600,4-gyel stimmel, tehát minden bizonnyal az a helyes, és a hiba a másik számban, tehát a funkciók szerinti értékekben van.
 

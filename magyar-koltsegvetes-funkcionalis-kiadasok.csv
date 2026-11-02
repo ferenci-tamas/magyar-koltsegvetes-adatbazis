@@ -8822,3 +8822,180 @@
 2026;Tervezet;59;main_group;F16;A főcsoportokba nem sorolható tételek;2026. évi előirányzat;2026;original_plan;254546,8
 2026;Tervezet;60;total;;Konszolidált kiadások összesen;2025. évi előirányzat;2025;original_plan;39291607,3
 2026;Tervezet;60;total;;Konszolidált kiadások összesen;2026. évi előirányzat;2026;original_plan;40170613,3
+2027;Tervezet;1;function;;ÁLLAMI MŰKÖDÉSI FUNKCIÓK;2026. évi eredeti előirányzat;2026;original_plan;7424949,9
+2027;Tervezet;1;function;;ÁLLAMI MŰKÖDÉSI FUNKCIÓK;2026. évi módosított előirányzat;2026;modified_plan;8332512,9
+2027;Tervezet;1;function;;ÁLLAMI MŰKÖDÉSI FUNKCIÓK;2027. évi előirányzat;2027;original_plan;7477641,2
+2027;Tervezet;2;main_group;F01;Általános közösségi szolgáltatások;2026. évi eredeti előirányzat;2026;original_plan;3748015,4
+2027;Tervezet;2;main_group;F01;Általános közösségi szolgáltatások;2026. évi módosított előirányzat;2026;modified_plan;4537867,3
+2027;Tervezet;2;main_group;F01;Általános közösségi szolgáltatások;2027. évi előirányzat;2027;original_plan;3859435,2
+2027;Tervezet;3;subgroup;F01.a;Törvényhozó és végrehajtó szervek;2026. évi eredeti előirányzat;2026;original_plan;1525455,9
+2027;Tervezet;3;subgroup;F01.a;Törvényhozó és végrehajtó szervek;2026. évi módosított előirányzat;2026;modified_plan;2267526,7
+2027;Tervezet;3;subgroup;F01.a;Törvényhozó és végrehajtó szervek;2027. évi előirányzat;2027;original_plan;1641264,4
+2027;Tervezet;4;subgroup;F01.b;Pénzügyi és költségvetési tevékenységek és szolgáltatások;2026. évi eredeti előirányzat;2026;original_plan;874543,4
+2027;Tervezet;4;subgroup;F01.b;Pénzügyi és költségvetési tevékenységek és szolgáltatások;2026. évi módosított előirányzat;2026;modified_plan;908755,9
+2027;Tervezet;4;subgroup;F01.b;Pénzügyi és költségvetési tevékenységek és szolgáltatások;2027. évi előirányzat;2027;original_plan;866175,7
+2027;Tervezet;5;subgroup;F01.c;Külügyek;2026. évi eredeti előirányzat;2026;original_plan;183368,1
+2027;Tervezet;5;subgroup;F01.c;Külügyek;2026. évi módosított előirányzat;2026;modified_plan;165936,7
+2027;Tervezet;5;subgroup;F01.c;Külügyek;2027. évi előirányzat;2027;original_plan;169669,6
+2027;Tervezet;6;subgroup;F01.d;Alapkutatás;2026. évi eredeti előirányzat;2026;original_plan;237477,1
+2027;Tervezet;6;subgroup;F01.d;Alapkutatás;2026. évi módosított előirányzat;2026;modified_plan;237477,1
+2027;Tervezet;6;subgroup;F01.d;Alapkutatás;2027. évi előirányzat;2027;original_plan;138962,9
+2027;Tervezet;7;subgroup;F01.f;Egyéb általános közösségi szolgáltatások;2026. évi eredeti előirányzat;2026;original_plan;927170,9
+2027;Tervezet;7;subgroup;F01.f;Egyéb általános közösségi szolgáltatások;2026. évi módosított előirányzat;2026;modified_plan;958170,9
+2027;Tervezet;7;subgroup;F01.f;Egyéb általános közösségi szolgáltatások;2027. évi előirányzat;2027;original_plan;1043362,6
+2027;Tervezet;8;main_group;F02;Védelem;2026. évi eredeti előirányzat;2026;original_plan;2012766,6
+2027;Tervezet;8;main_group;F02;Védelem;2026. évi módosított előirányzat;2026;modified_plan;2125141,7
+2027;Tervezet;8;main_group;F02;Védelem;2027. évi előirányzat;2027;original_plan;1938838,9
+2027;Tervezet;9;main_group;F03;Rendvédelem és közbiztonság;2026. évi eredeti előirányzat;2026;original_plan;1664167,9
+2027;Tervezet;9;main_group;F03;Rendvédelem és közbiztonság;2026. évi módosított előirányzat;2026;modified_plan;1669503,9
+2027;Tervezet;9;main_group;F03;Rendvédelem és közbiztonság;2027. évi előirányzat;2027;original_plan;1679367,1
+2027;Tervezet;10;subgroup;F03.a;Igazságszolgáltatás;2026. évi eredeti előirányzat;2026;original_plan;331050,3
+2027;Tervezet;10;subgroup;F03.a;Igazságszolgáltatás;2026. évi módosított előirányzat;2026;modified_plan;334386,3
+2027;Tervezet;10;subgroup;F03.a;Igazságszolgáltatás;2027. évi előirányzat;2027;original_plan;473041
+2027;Tervezet;11;subgroup;F03.b;Rend- és közbiztonság;2026. évi eredeti előirányzat;2026;original_plan;978847,5
+2027;Tervezet;11;subgroup;F03.b;Rend- és közbiztonság;2026. évi módosított előirányzat;2026;modified_plan;980847,5
+2027;Tervezet;11;subgroup;F03.b;Rend- és közbiztonság;2027. évi előirányzat;2027;original_plan;889493,2
+2027;Tervezet;12;subgroup;F03.c;Tűzvédelem;2026. évi eredeti előirányzat;2026;original_plan;176377,6
+2027;Tervezet;12;subgroup;F03.c;Tűzvédelem;2026. évi módosított előirányzat;2026;modified_plan;176377,6
+2027;Tervezet;12;subgroup;F03.c;Tűzvédelem;2027. évi előirányzat;2027;original_plan;158410,7
+2027;Tervezet;13;subgroup;F03.d;Büntetésvégrehajtási igazgatás és működtetés;2026. évi eredeti előirányzat;2026;original_plan;177892,5
+2027;Tervezet;13;subgroup;F03.d;Büntetésvégrehajtási igazgatás és működtetés;2026. évi módosított előirányzat;2026;modified_plan;177892,5
+2027;Tervezet;13;subgroup;F03.d;Büntetésvégrehajtási igazgatás és működtetés;2027. évi előirányzat;2027;original_plan;158422,2
+2027;Tervezet;14;function;;JÓLÉTI FUNKCIÓK;2026. évi eredeti előirányzat;2026;original_plan;22989088,9
+2027;Tervezet;14;function;;JÓLÉTI FUNKCIÓK;2026. évi módosított előirányzat;2026;modified_plan;23731305,5
+2027;Tervezet;14;function;;JÓLÉTI FUNKCIÓK;2027. évi előirányzat;2027;original_plan;25522222,9
+2027;Tervezet;15;main_group;F04;Oktatási tevékenységek és szolgáltatások;2026. évi eredeti előirányzat;2026;original_plan;3960015
+2027;Tervezet;15;main_group;F04;Oktatási tevékenységek és szolgáltatások;2026. évi módosított előirányzat;2026;modified_plan;3983083
+2027;Tervezet;15;main_group;F04;Oktatási tevékenységek és szolgáltatások;2027. évi előirányzat;2027;original_plan;4166621,5
+2027;Tervezet;16;subgroup;F04.a;Iskolai előkészítés és alapfokú oktatás;2026. évi eredeti előirányzat;2026;original_plan;504673,8
+2027;Tervezet;16;subgroup;F04.a;Iskolai előkészítés és alapfokú oktatás;2026. évi módosított előirányzat;2026;modified_plan;504673,8
+2027;Tervezet;16;subgroup;F04.a;Iskolai előkészítés és alapfokú oktatás;2027. évi előirányzat;2027;original_plan;617329,1
+2027;Tervezet;17;subgroup;F04.b;Középfokú oktatás;2026. évi eredeti előirányzat;2026;original_plan;650457
+2027;Tervezet;17;subgroup;F04.b;Középfokú oktatás;2026. évi módosított előirányzat;2026;modified_plan;642457
+2027;Tervezet;17;subgroup;F04.b;Középfokú oktatás;2027. évi előirányzat;2027;original_plan;726545,3
+2027;Tervezet;18;subgroup;F04.c;Felsőfokú oktatás;2026. évi eredeti előirányzat;2026;original_plan;835514,1
+2027;Tervezet;18;subgroup;F04.c;Felsőfokú oktatás;2026. évi módosított előirányzat;2026;modified_plan;813709,6
+2027;Tervezet;18;subgroup;F04.c;Felsőfokú oktatás;2027. évi előirányzat;2027;original_plan;760954,1
+2027;Tervezet;19;subgroup;F04.d;Egyéb oktatás;2026. évi eredeti előirányzat;2026;original_plan;1969370,1
+2027;Tervezet;19;subgroup;F04.d;Egyéb oktatás;2026. évi módosított előirányzat;2026;modified_plan;2022242,6
+2027;Tervezet;19;subgroup;F04.d;Egyéb oktatás;2027. évi előirányzat;2027;original_plan;2061793
+2027;Tervezet;20;main_group;F05;Egészségügy;2026. évi eredeti előirányzat;2026;original_plan;3911394,7
+2027;Tervezet;20;main_group;F05;Egészségügy;2026. évi módosított előirányzat;2026;modified_plan;4000518,8
+2027;Tervezet;20;main_group;F05;Egészségügy;2027. évi előirányzat;2027;original_plan;4598691,2
+2027;Tervezet;21;subgroup;F05.a;Kórházi tevékenységek és szolgáltatások;2026. évi eredeti előirányzat;2026;original_plan;2543756,3
+2027;Tervezet;21;subgroup;F05.a;Kórházi tevékenységek és szolgáltatások;2026. évi módosított előirányzat;2026;modified_plan;2600676,8
+2027;Tervezet;21;subgroup;F05.a;Kórházi tevékenységek és szolgáltatások;2027. évi előirányzat;2027;original_plan;3036052,6
+2027;Tervezet;22;subgroup;F05.b;Háziorvosi és gyermekorvosi szolgálat;2026. évi eredeti előirányzat;2026;original_plan;293653,7
+2027;Tervezet;22;subgroup;F05.b;Háziorvosi és gyermekorvosi szolgálat;2026. évi módosított előirányzat;2026;modified_plan;293653,7
+2027;Tervezet;22;subgroup;F05.b;Háziorvosi és gyermekorvosi szolgálat;2027. évi előirányzat;2027;original_plan;373681,1
+2027;Tervezet;23;subgroup;F05.c;Rendelői, orvosi, fogorvosi ellátás;2026. évi eredeti előirányzat;2026;original_plan;207929,9
+2027;Tervezet;23;subgroup;F05.c;Rendelői, orvosi, fogorvosi ellátás;2026. évi módosított előirányzat;2026;modified_plan;207929,9
+2027;Tervezet;23;subgroup;F05.c;Rendelői, orvosi, fogorvosi ellátás;2027. évi előirányzat;2027;original_plan;242736,5
+2027;Tervezet;24;subgroup;F05.d;Közegészségügyi tevékenységek és szolgáltatások;2026. évi eredeti előirányzat;2026;original_plan;67784,5
+2027;Tervezet;24;subgroup;F05.d;Közegészségügyi tevékenységek és szolgáltatások;2026. évi módosított előirányzat;2026;modified_plan;67784,5
+2027;Tervezet;24;subgroup;F05.d;Közegészségügyi tevékenységek és szolgáltatások;2027. évi előirányzat;2027;original_plan;84454
+2027;Tervezet;25;subgroup;F05.e;Egyéb egészségügy;2026. évi eredeti előirányzat;2026;original_plan;798270,3
+2027;Tervezet;25;subgroup;F05.e;Egyéb egészségügy;2026. évi módosított előirányzat;2026;modified_plan;830473,9
+2027;Tervezet;25;subgroup;F05.e;Egyéb egészségügy;2027. évi előirányzat;2027;original_plan;861767
+2027;Tervezet;26;main_group;F06;Társadalombiztosítási és jóléti szolgáltatások;2026. évi eredeti előirányzat;2026;original_plan;12445107
+2027;Tervezet;26;main_group;F06;Társadalombiztosítási és jóléti szolgáltatások;2026. évi módosított előirányzat;2026;modified_plan;12826260,9
+2027;Tervezet;26;main_group;F06;Társadalombiztosítási és jóléti szolgáltatások;2027. évi előirányzat;2027;original_plan;14058570,1
+2027;Tervezet;27;subgroup;F06.a;Táppénz, anyasági vagy ideiglenes rokkantsági juttatások;2026. évi eredeti előirányzat;2026;original_plan;874313,7
+2027;Tervezet;27;subgroup;F06.a;Táppénz, anyasági vagy ideiglenes rokkantsági juttatások;2026. évi módosított előirányzat;2026;modified_plan;889413,7
+2027;Tervezet;27;subgroup;F06.a;Táppénz, anyasági vagy ideiglenes rokkantsági juttatások;2027. évi előirányzat;2027;original_plan;1018506,7
+2027;Tervezet;28;subgroup;F06.b;Nyugellátások;2026. évi eredeti előirányzat;2026;original_plan;6986990
+2027;Tervezet;28;subgroup;F06.b;Nyugellátások;2026. évi módosított előirányzat;2026;modified_plan;7199390
+2027;Tervezet;28;subgroup;F06.b;Nyugellátások;2027. évi előirányzat;2027;original_plan;7688752,4
+2027;Tervezet;29;subgroup;F06.c;Egyéb társadalombiztosítási ellátások;2026. évi eredeti előirányzat;2026;original_plan;57385,6
+2027;Tervezet;29;subgroup;F06.c;Egyéb társadalombiztosítási ellátások;2026. évi módosított előirányzat;2026;modified_plan;56985,6
+2027;Tervezet;29;subgroup;F06.c;Egyéb társadalombiztosítási ellátások;2027. évi előirányzat;2027;original_plan;59151,8
+2027;Tervezet;30;subgroup;F06.d;Munkanélküli ellátások;2026. évi eredeti előirányzat;2026;original_plan;223771,5
+2027;Tervezet;30;subgroup;F06.d;Munkanélküli ellátások;2026. évi módosított előirányzat;2026;modified_plan;223771,5
+2027;Tervezet;30;subgroup;F06.d;Munkanélküli ellátások;2027. évi előirányzat;2027;original_plan;229525,8
+2027;Tervezet;31;subgroup;F06.e;Családi pótlékok és gyermekeknek járó juttatások;2026. évi eredeti előirányzat;2026;original_plan;1101827,9
+2027;Tervezet;31;subgroup;F06.e;Családi pótlékok és gyermekeknek járó juttatások;2026. évi módosított előirányzat;2026;modified_plan;1119082,3
+2027;Tervezet;31;subgroup;F06.e;Családi pótlékok és gyermekeknek járó juttatások;2027. évi előirányzat;2027;original_plan;1362553,2
+2027;Tervezet;32;subgroup;F06.f;Egyéb szociális támogatások;2026. évi eredeti előirányzat;2026;original_plan;1564591,2
+2027;Tervezet;32;subgroup;F06.f;Egyéb szociális támogatások;2026. évi módosított előirányzat;2026;modified_plan;1643191,4
+2027;Tervezet;32;subgroup;F06.f;Egyéb szociális támogatások;2027. évi előirányzat;2027;original_plan;750437,6
+2027;Tervezet;33;subgroup;F06.g;Szociális és jóléti intézményi szolgáltatások;2026. évi eredeti előirányzat;2026;original_plan;1636227,1
+2027;Tervezet;33;subgroup;F06.g;Szociális és jóléti intézményi szolgáltatások;2026. évi módosított előirányzat;2026;modified_plan;1694426,4
+2027;Tervezet;33;subgroup;F06.g;Szociális és jóléti intézményi szolgáltatások;2027. évi előirányzat;2027;original_plan;2949642,6
+2027;Tervezet;34;main_group;F07;Lakásügyek, települési és közösségi tevékenységek és szolgáltatások;2026. évi eredeti előirányzat;2026;original_plan;1100615,5
+2027;Tervezet;34;main_group;F07;Lakásügyek, települési és közösségi tevékenységek és szolgáltatások;2026. évi módosított előirányzat;2026;modified_plan;1314149,1
+2027;Tervezet;34;main_group;F07;Lakásügyek, települési és közösségi tevékenységek és szolgáltatások;2027. évi előirányzat;2027;original_plan;1064130,1
+2027;Tervezet;35;main_group;F08;Szórakoztató, kulturális, vallási tevékenységek és szolgáltatások;2026. évi eredeti előirányzat;2026;original_plan;1571956,7
+2027;Tervezet;35;main_group;F08;Szórakoztató, kulturális, vallási tevékenységek és szolgáltatások;2026. évi módosított előirányzat;2026;modified_plan;1607293,7
+2027;Tervezet;35;main_group;F08;Szórakoztató, kulturális, vallási tevékenységek és szolgáltatások;2027. évi előirányzat;2027;original_plan;1634210
+2027;Tervezet;36;subgroup;F08.a;Sport és szabadidős tevékenységek és szolgáltatások;2026. évi eredeti előirányzat;2026;original_plan;357721,7
+2027;Tervezet;36;subgroup;F08.a;Sport és szabadidős tevékenységek és szolgáltatások;2026. évi módosított előirányzat;2026;modified_plan;363481,7
+2027;Tervezet;36;subgroup;F08.a;Sport és szabadidős tevékenységek és szolgáltatások;2027. évi előirányzat;2027;original_plan;559329,7
+2027;Tervezet;37;subgroup;F08.b;Kulturális tevékenységek és szolgáltatások;2026. évi eredeti előirányzat;2026;original_plan;650099,2
+2027;Tervezet;37;subgroup;F08.b;Kulturális tevékenységek és szolgáltatások;2026. évi módosított előirányzat;2026;modified_plan;684350,2
+2027;Tervezet;37;subgroup;F08.b;Kulturális tevékenységek és szolgáltatások;2027. évi előirányzat;2027;original_plan;688663,9
+2027;Tervezet;38;subgroup;F08.c;Műsorszórási és kiadói tevékenységek és szolgáltatások;2026. évi eredeti előirányzat;2026;original_plan;150071,6
+2027;Tervezet;38;subgroup;F08.c;Műsorszórási és kiadói tevékenységek és szolgáltatások;2026. évi módosított előirányzat;2026;modified_plan;150071,6
+2027;Tervezet;38;subgroup;F08.c;Műsorszórási és kiadói tevékenységek és szolgáltatások;2027. évi előirányzat;2027;original_plan;89117,2
+2027;Tervezet;39;subgroup;F08.d;Hitéleti tevékenységek;2026. évi eredeti előirányzat;2026;original_plan;136732,7
+2027;Tervezet;39;subgroup;F08.d;Hitéleti tevékenységek;2026. évi módosított előirányzat;2026;modified_plan;136732,7
+2027;Tervezet;39;subgroup;F08.d;Hitéleti tevékenységek;2027. évi előirányzat;2027;original_plan;109313,1
+2027;Tervezet;40;subgroup;F08.e;Párttevékenységek;2026. évi eredeti előirányzat;2026;original_plan;2548,8
+2027;Tervezet;40;subgroup;F08.e;Párttevékenységek;2026. évi módosított előirányzat;2026;modified_plan;2548,8
+2027;Tervezet;40;subgroup;F08.e;Párttevékenységek;2027. évi előirányzat;2027;original_plan;2548,8
+2027;Tervezet;41;subgroup;F08.f;Egyéb közösségi és kulturális tevékenységek;2026. évi eredeti előirányzat;2026;original_plan;274782,7
+2027;Tervezet;41;subgroup;F08.f;Egyéb közösségi és kulturális tevékenységek;2026. évi módosított előirányzat;2026;modified_plan;270108,7
+2027;Tervezet;41;subgroup;F08.f;Egyéb közösségi és kulturális tevékenységek;2027. évi előirányzat;2027;original_plan;185237,3
+2027;Tervezet;42;function;;GAZDASÁGI FUNKCIÓK;2026. évi eredeti előirányzat;2026;original_plan;6048683,1
+2027;Tervezet;42;function;;GAZDASÁGI FUNKCIÓK;2026. évi módosított előirányzat;2026;modified_plan;8604669,9
+2027;Tervezet;42;function;;GAZDASÁGI FUNKCIÓK;2027. évi előirányzat;2027;original_plan;6364618,6
+2027;Tervezet;43;main_group;F09;Tüzelő- és üzemanyag, valamint energiaellátási feladatok;2026. évi eredeti előirányzat;2026;original_plan;178092,9
+2027;Tervezet;43;main_group;F09;Tüzelő- és üzemanyag, valamint energiaellátási feladatok;2026. évi módosított előirányzat;2026;modified_plan;489646,9
+2027;Tervezet;43;main_group;F09;Tüzelő- és üzemanyag, valamint energiaellátási feladatok;2027. évi előirányzat;2027;original_plan;255186,4
+2027;Tervezet;44;main_group;F10;Mező-, erdő- , hal- és vadgazdálkodás;2026. évi eredeti előirányzat;2026;original_plan;643540,6
+2027;Tervezet;44;main_group;F10;Mező-, erdő- , hal- és vadgazdálkodás;2026. évi módosított előirányzat;2026;modified_plan;940040,6
+2027;Tervezet;44;main_group;F10;Mező-, erdő- , hal- és vadgazdálkodás;2027. évi előirányzat;2027;original_plan;731047,7
+2027;Tervezet;45;main_group;F11;Bányászat és ipar;2026. évi eredeti előirányzat;2026;original_plan;12728,1
+2027;Tervezet;45;main_group;F11;Bányászat és ipar;2026. évi módosított előirányzat;2026;modified_plan;127138,4
+2027;Tervezet;45;main_group;F11;Bányászat és ipar;2027. évi előirányzat;2027;original_plan;9339
+2027;Tervezet;46;main_group;F12;Közlekedési és távközlési tevékenységek és szolgáltatások;2026. évi eredeti előirányzat;2026;original_plan;2557757,9
+2027;Tervezet;46;main_group;F12;Közlekedési és távközlési tevékenységek és szolgáltatások;2026. évi módosított előirányzat;2026;modified_plan;2999932,5
+2027;Tervezet;46;main_group;F12;Közlekedési és távközlési tevékenységek és szolgáltatások;2027. évi előirányzat;2027;original_plan;2672422,5
+2027;Tervezet;47;subgroup;F12.a;Közúti közlekedési tevékenységek;2026. évi eredeti előirányzat;2026;original_plan;1723116,4
+2027;Tervezet;47;subgroup;F12.a;Közúti közlekedési tevékenységek;2026. évi módosított előirányzat;2026;modified_plan;2029812,8
+2027;Tervezet;47;subgroup;F12.a;Közúti közlekedési tevékenységek;2027. évi előirányzat;2027;original_plan;1689777,1
+2027;Tervezet;48;subgroup;F12.b;Vasúti közlekedésügyek és szolgáltatások;2026. évi eredeti előirányzat;2026;original_plan;676414,2
+2027;Tervezet;48;subgroup;F12.b;Vasúti közlekedésügyek és szolgáltatások;2026. évi módosított előirányzat;2026;modified_plan;821665,9
+2027;Tervezet;48;subgroup;F12.b;Vasúti közlekedésügyek és szolgáltatások;2027. évi előirányzat;2027;original_plan;803437,1
+2027;Tervezet;49;subgroup;F12.c;Távközlés;2026. évi eredeti előirányzat;2026;original_plan;126140,1
+2027;Tervezet;49;subgroup;F12.c;Távközlés;2026. évi módosított előirányzat;2026;modified_plan;111840,1
+2027;Tervezet;49;subgroup;F12.c;Távközlés;2027. évi előirányzat;2027;original_plan;157132,9
+2027;Tervezet;50;subgroup;F12.d;Egyéb közlekedés és szállítás;2026. évi eredeti előirányzat;2026;original_plan;32087,2
+2027;Tervezet;50;subgroup;F12.d;Egyéb közlekedés és szállítás;2026. évi módosított előirányzat;2026;modified_plan;36613,7
+2027;Tervezet;50;subgroup;F12.d;Egyéb közlekedés és szállítás;2027. évi előirányzat;2027;original_plan;22075,4
+2027;Tervezet;51;main_group;F13;Egyéb gazdasági tevékenységek és szolgáltatások;2026. évi eredeti előirányzat;2026;original_plan;2238826,3
+2027;Tervezet;51;main_group;F13;Egyéb gazdasági tevékenységek és szolgáltatások;2026. évi módosított előirányzat;2026;modified_plan;3430174,2
+2027;Tervezet;51;main_group;F13;Egyéb gazdasági tevékenységek és szolgáltatások;2027. évi előirányzat;2027;original_plan;2233138,1
+2027;Tervezet;52;subgroup;F13.a;Többcélú fejlesztési témák tevékenységei és szolgáltatásai;2026. évi eredeti előirányzat;2026;original_plan;775619,3
+2027;Tervezet;52;subgroup;F13.a;Többcélú fejlesztési témák tevékenységei és szolgáltatásai;2026. évi módosított előirányzat;2026;modified_plan;732633,8
+2027;Tervezet;52;subgroup;F13.a;Többcélú fejlesztési témák tevékenységei és szolgáltatásai;2027. évi előirányzat;2027;original_plan;446520,2
+2027;Tervezet;53;subgroup;F13.b;További egyéb gazdasági tevékenységek és szolgáltatások;2026. évi eredeti előirányzat;2026;original_plan;1463207
+2027;Tervezet;53;subgroup;F13.b;További egyéb gazdasági tevékenységek és szolgáltatások;2026. évi módosított előirányzat;2026;modified_plan;2697540,4
+2027;Tervezet;53;subgroup;F13.b;További egyéb gazdasági tevékenységek és szolgáltatások;2027. évi előirányzat;2027;original_plan;1786617,9
+2027;Tervezet;54;main_group;F14;Környezetvédelem;2026. évi eredeti előirányzat;2026;original_plan;417737,3
+2027;Tervezet;54;main_group;F14;Környezetvédelem;2026. évi módosított előirányzat;2026;modified_plan;617737,3
+2027;Tervezet;54;main_group;F14;Környezetvédelem;2027. évi előirányzat;2027;original_plan;463484,9
+2027;Tervezet;55;function;;ÁLLAMADÓSSÁG-KEZELÉS;2026. évi eredeti előirányzat;2026;original_plan;3361697,2
+2027;Tervezet;55;function;;ÁLLAMADÓSSÁG-KEZELÉS;2026. évi módosított előirányzat;2026;modified_plan;3622710,7
+2027;Tervezet;55;function;;ÁLLAMADÓSSÁG-KEZELÉS;2027. évi előirányzat;2027;original_plan;3510259,4
+2027;Tervezet;56;main_group;F15;Államadósság-kezelés, államháztartás;2026. évi eredeti előirányzat;2026;original_plan;3361697,2
+2027;Tervezet;56;main_group;F15;Államadósság-kezelés, államháztartás;2026. évi módosított előirányzat;2026;modified_plan;3622710,7
+2027;Tervezet;56;main_group;F15;Államadósság-kezelés, államháztartás;2027. évi előirányzat;2027;original_plan;3510259,4
+2027;Tervezet;57;function;;FUNKCIÓBA NEM SOROLHATÓ TÉTELEK;2026. évi eredeti előirányzat;2026;original_plan;254547,8
+2027;Tervezet;57;function;;FUNKCIÓBA NEM SOROLHATÓ TÉTELEK;2026. évi módosított előirányzat;2026;modified_plan;352367,8
+2027;Tervezet;57;function;;FUNKCIÓBA NEM SOROLHATÓ TÉTELEK;2027. évi előirányzat;2027;original_plan;264500,3
+2027;Tervezet;58;main_group;F16;A főcsoportokba nem sorolható tételek;2026. évi eredeti előirányzat;2026;original_plan;254547,8
+2027;Tervezet;58;main_group;F16;A főcsoportokba nem sorolható tételek;2026. évi módosított előirányzat;2026;modified_plan;352367,8
+2027;Tervezet;58;main_group;F16;A főcsoportokba nem sorolható tételek;2027. évi előirányzat;2027;original_plan;264500,3
+2027;Tervezet;59;total;;Konszolidált kiadások összesen;2026. évi eredeti előirányzat;2026;original_plan;40078966,9
+2027;Tervezet;59;total;;Konszolidált kiadások összesen;2026. évi módosított előirányzat;2026;modified_plan;44643566,8
+2027;Tervezet;59;total;;Konszolidált kiadások összesen;2027. évi előirányzat;2027;original_plan;43139242,4

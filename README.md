@@ -1,7 +1,7 @@
-Magyar költségvetések adatbázisa (1949–2026)
+Magyar költségvetések adatbázisa (1949–2027)
 ================
 Ferenci Tamás (<https://www.medstat.hu/>)<br>
-2026. október 31.
+2026. november 2.
 
 Az ország költségvetése alapvetően határozza meg életünk kereteit: egyik
 oldalról megmutatja, hogy az állam mennyi adót, járulékot szed be, másik
@@ -184,14 +184,14 @@ nincs rájuk magyarázatom:
   az T. évi és az T+1. évi táblázat. Miközben az előirányzat az, ami az
   eredetileg tervezett érték, ez nem változhatna meg attól, hogy később
   írjuk le az értékét.
-- A 2016. évi zárszámadásban az államháztartás konszolidált funkcionális
-  kiadásai közül hiányzik az F01.e kategória (az F01.d után az F01.f
-  jön). Furcsa lenne, hogy egyszerűen kihagyjanak egy sort, de gyanúsan
-  ez történt, mert a funkcionális mérlegben szerepel, és a megoszlások
-  között is (de érdekes módon a GDP-arányos megoszlásban megint csak
-  hiányzik). Elképzelhető, hogy a sor végig üres volt, és ezért hagyták
-  el (bár más esetekben – helyesen – ilyenkor is megtartották, erre
-  példa a 2015-ös zárszámadás).
+- Bizonyos esetekben (pl. 2016. évi zárszámadás) az államháztartás
+  konszolidált funkcionális kiadásai közül hiányzik az F01.e kategória
+  (az F01.d után az F01.f jön). Furcsa lenne, hogy egyszerűen
+  kihagyjanak egy sort, de gyanúsan ez történt, mert a funkcionális
+  mérlegben szerepel, és a megoszlások között is. A legvalószínűbb
+  magyarázat, hogy a sor végig üres, azaz, ha mindent jól értek, 0
+  forintos volt, és ezért hagyták el (bár más esetekben – helyesen –
+  ilyenkor is megtartották, erre példa a 2015-ös zárszámadás).
 - A 2003-as és 2004-es tervezetben az államháztartás konszolidált
   funkcionális kiadásai tábla azt állítja magáról a fejlécben, hogy „ESA
   ’95 módszertan szerint” készült. Ez furcsa, mert normális körülmények
@@ -263,6 +263,7 @@ elkészült.
 
 | Év | Költségvetés tervezet, indokolás, melléklet | Költségvetés jogszabály | Módosítás | Zárszámadás tervezet, indokolás, melléklet | Zárszámadás jogszabály |
 |---:|:---|:---|:---|:---|:---|
+| 2027 | [Dokumentumok](dokumentumok/2027/koltsegvetes-tervezet) |  |  |  |  |
 | 2026 | [Dokumentumok](dokumentumok/2026/koltsegvetes-tervezet) | [Jogszabály](dokumentumok/2026/koltsegvetes-jogszabaly) ([NJT](https://njt.jog.gov.hu/jogszabaly/2025-69-00-00), [Jogkódex](https://jogkodex.hu/jsz/2025_69_torveny_2330920)) |  |  |  |
 | 2025 | [Dokumentumok](dokumentumok/2025/koltsegvetes-tervezet) | [Jogszabály](dokumentumok/2025/koltsegvetes-jogszabaly) ([NJT](https://njt.jog.gov.hu/jogszabaly/2024-90-00-00), [Jogkódex](https://jogkodex.hu/jsz/kvtv_2025_2024_90_torveny_4651494)) |  |  |  |
 | 2024 | [Dokumentumok](dokumentumok/2024/koltsegvetes-tervezet) ([Parlament.hu](https://www.parlament.hu/irom42/04181/04181.html)) | [Jogszabály](dokumentumok/2024/koltsegvetes-jogszabaly) ([NJT](https://njt.jog.gov.hu/jogszabaly/2023-55-00-00), [Jogkódex](https://jogkodex.hu/jsz/kvtv_2024_2023_55_torveny_6555338)) |  | [Dokumentumok](dokumentumok/2024/zarszamadas-tervezet) | [Jogszabály](dokumentumok/2024/zarszamadas-jogszabaly) ([NJT](https://njt.jog.gov.hu/jogszabaly/2025-85-00-00), [Jogkódex](https://jogkodex.hu/jsz/2025_85_torveny_6748204)) |
