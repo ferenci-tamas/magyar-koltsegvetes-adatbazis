@@ -307,6 +307,8 @@ fukons <- list.files("./dokumentumok/", "fu__kon.pdf", recursive = TRUE, full.na
 fukons
 
 fk <- read_fukons(fukons)
+fk[names(fk) == "code"] <- "huncode"
+fk[names(fk) == "name"] <- "hunname"
 
 saveRDS(fk, "magyar-koltsegvetes-funkcionalis-kiadasok.rds")
 openxlsx::write.xlsx(fk, "magyar-koltsegvetes-funkcionalis-kiadasok.xlsx")
