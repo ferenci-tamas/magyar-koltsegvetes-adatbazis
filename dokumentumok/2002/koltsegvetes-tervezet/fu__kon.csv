@@ -1,0 +1,61 @@
+﻿doc_year;doc_type;row;level;code;name;type;2001. évi előirányzat;2002. évi előirányzat
+2002;Tervezet;1;function;;ÁLLAMI MŰKÖDÉSI FUNKCIÓK;original_plan;865720,3;930785,9
+2002;Tervezet;2;main_group;F01;Általános közösségi szolgáltatások;original_plan;385541,3;411881,9
+2002;Tervezet;3;subgroup;F01.a;Törvényhozó és végrehajtó szervek;original_plan;121102,4;136952,6
+2002;Tervezet;4;subgroup;F01.b;Pénzügyi és költségvetési tevékenységek és szolgáltatások;original_plan;121197,9;122774,9
+2002;Tervezet;5;subgroup;F01.c;Külügyek;original_plan;43180,8;43025,9
+2002;Tervezet;6;subgroup;F01.d;Alapkutatás;original_plan;38926,5;51082
+2002;Tervezet;7;subgroup;F01.e;Műszaki fejlesztés;original_plan;12652;15947
+2002;Tervezet;8;subgroup;F01.f;Egyéb általános közösségi szolgáltatások;original_plan;48481,7;42099,5
+2002;Tervezet;9;main_group;F02;Védelem;original_plan;205187,3;231015,9
+2002;Tervezet;10;main_group;F03;Rendvédelem és közbiztonság;original_plan;274991,7;287888,1
+2002;Tervezet;11;subgroup;F03.a;Igazságszolgáltatás;original_plan;52302,6;53841,4
+2002;Tervezet;12;subgroup;F03.b;Rend- és közbiztonság;original_plan;184264,2;194190,5
+2002;Tervezet;13;subgroup;F03.c;Tűzvédelem;original_plan;13500,4;13573,2
+2002;Tervezet;14;subgroup;F03.d;Büntetésvégrehajtási igazgatás és működtetés;original_plan;24924,5;26283
+2002;Tervezet;15;function;;JÓLÉTI FUNKCIÓK;original_plan;1732446;1888454
+2002;Tervezet;16;main_group;F04;Oktatási tevékenységek és szolgáltatások;original_plan;577628,8;615847
+2002;Tervezet;17;subgroup;F04.a;Iskolai előkészítés és alapfokú oktatás;original_plan;226958;256503,9
+2002;Tervezet;18;subgroup;F04.b;Középfokú oktatás;original_plan;22628;23160,1
+2002;Tervezet;19;subgroup;F04.c;Felsőfokú oktatás;original_plan;243793,1;255715,3
+2002;Tervezet;20;subgroup;F04.d;Egyéb oktatás;original_plan;84249,7;80467,7
+2002;Tervezet;21;main_group;F05;Egészségügy;original_plan;165128,8;179200,9
+2002;Tervezet;22;subgroup;F05.a;Kórházi tevékenységek és szolgáltatások;original_plan;75093,8;73325,2
+2002;Tervezet;23;subgroup;F05.b;Háziorvosi és gyermekorvosi szolgálat;original_plan;1000;1000
+2002;Tervezet;24;subgroup;F05.c;Rendelői, orvosi, fogorvosi ellátás;original_plan;300;255
+2002;Tervezet;25;subgroup;F05.d;Közegészségügyi tevékenységek és szolgáltatások;original_plan;35223;37698,5
+2002;Tervezet;26;subgroup;F05.e;Egyéb egészségügy;original_plan;53512;66922,2
+2002;Tervezet;27;main_group;F06;Társadalombiztosítási és jóléti szolgáltatások;original_plan;715228,9;805217
+2002;Tervezet;28;subgroup;F06.a;Táppénz, anyasági vagy ideiglenes rokkantsági juttatások;original_plan;2618,1;2964
+2002;Tervezet;29;subgroup;F06.b;Nyugellátások;original_plan;242404;295208
+2002;Tervezet;30;subgroup;F06.c;Egyéb társadalombiztosítási ellátások;original_plan;12465;12990
+2002;Tervezet;31;subgroup;F06.d;Munkanélküli ellátások;original_plan;10977,7;15055,1
+2002;Tervezet;32;subgroup;F06.e;Családi pótlékok és gyermekeknek járó juttatások;original_plan;234526,2;244705,8
+2002;Tervezet;33;subgroup;F06.f;Egyéb szociális támogatások;original_plan;167449,3;184720,8
+2002;Tervezet;34;subgroup;F06.g;Szociális és jóléti intézményi szolgáltatások;original_plan;44788,6;49573,3
+2002;Tervezet;35;main_group;F07;Lakásügyek, települési és közösségi tevékenységek és szolgáltatások;original_plan;88717,8;91771,8
+2002;Tervezet;36;main_group;F08;Szórakoztató, kulturális, vallási tevékenységek és szolgáltatások;original_plan;126160,9;136148
+2002;Tervezet;37;subgroup;F08.a;Sport és szabadidős tevékenységek és szolgáltatások;original_plan;19660,7;19869,6
+2002;Tervezet;38;subgroup;F08.b;Kulturális tevékenységek és szolgáltatások;original_plan;61337,7;72543,2
+2002;Tervezet;39;subgroup;F08.c;Műsorszórási és kiadói tevékenységek és szolgáltatások;original_plan;10719,2;10719,2
+2002;Tervezet;40;subgroup;F08.d;Hitéleti tevékenységek;original_plan;21934,5;19938,8
+2002;Tervezet;41;subgroup;F08.e;Párttevékenységek;original_plan;2549;2549
+2002;Tervezet;42;subgroup;F08.f;Egyéb közösségi és kulturális tevékenységek;original_plan;9959,8;10528,2
+2002;Tervezet;43;main_group;F14;Környezetvédelem;original_plan;59580,8;60269,3
+2002;Tervezet;44;function;;GAZDASÁGI FUNKCIÓK;original_plan;796430,5;849138,4
+2002;Tervezet;45;main_group;F09;Tüzelő- és üzemanyag, valamint energiaellátási feladatok;original_plan;4249,8;4246,6
+2002;Tervezet;46;main_group;F10;Mező-, erdő- , hal- és vadgazdálkodás;original_plan;264384,1;267469,2
+2002;Tervezet;47;main_group;F11;Bányászat és ipar;original_plan;10769,2;8661,9
+2002;Tervezet;48;main_group;F12;Közlekedési és távközlési tevékenységek és szolgáltatások;original_plan;294772,8;328817,2
+2002;Tervezet;49;subgroup;F12.a;Közúti közlekedési tevékenységek;original_plan;112488,1;119263,1
+2002;Tervezet;50;subgroup;F12.b;Vasúti közlekedésügyek és szolgáltatások;original_plan;88653;91648
+2002;Tervezet;51;subgroup;F12.c;Távközlés;original_plan;41695,7;59473,9
+2002;Tervezet;52;subgroup;F12.d;Egyéb közlekedés és szállítás;original_plan;51936;58432,2
+2002;Tervezet;53;main_group;F13;Egyéb gazdasági tevékenységek és szolgáltatások;original_plan;222254,6;239943,5
+2002;Tervezet;54;subgroup;F13.a;Többcélú fejlesztési témák tevékenységei és szolgáltatásai;original_plan;83013;93657,9
+2002;Tervezet;55;subgroup;F13.b;További egyéb gazdasági tevékenységek és szolgáltatások;original_plan;139241,6;146285,6
+2002;Tervezet;56;function;;ÁLLAMADÓSSÁG-KEZELÉS;original_plan;744592,7;729966
+2002;Tervezet;57;main_group;F15;Államadósság-kezelés, államháztartás;original_plan;744592,7;729966
+2002;Tervezet;58;function;;FUNKCIÓBA NEM SOROLHATÓ TÉTELEK;original_plan;164208,8;151687,9
+2002;Tervezet;59;main_group;F16;A főcsoportokba nem sorolható tételek;original_plan;164208,8;151687,9
+2002;Tervezet;60;total;;Konszolidált kiadások összesen;original_plan;4303398,3;4550032,2

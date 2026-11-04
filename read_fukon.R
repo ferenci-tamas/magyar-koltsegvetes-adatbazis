@@ -71,9 +71,9 @@ parse_cell <- function(text, x, right, max_gap) {
   n <- length(text)
   ok <- if (n == 1L) grepl(fukon_re$num, text) else
     grepl("^-?[0-9]{1,3}$", text[1]) &&
-      all(grepl("^[0-9]{3}$", text[-c(1, n)])) &&
-      grepl("^[0-9]{3}(,[0-9]+)?$", text[n]) &&
-      all(x[-1] - right[-n] <= max_gap)
+    all(grepl("^[0-9]{3}$", text[-c(1, n)])) &&
+    grepl("^[0-9]{3}(,[0-9]+)?$", text[n]) &&
+    all(x[-1] - right[-n] <= max_gap)
   if (!ok) return(NA_real_)
   as.numeric(sub(",", ".", paste(text, collapse = ""), fixed = TRUE))
 }
@@ -85,18 +85,18 @@ read_fukon <- function(file) {
   if (!nrow(d)) stop(file, ": no text layer", call. = FALSE)
   d[, `:=`(x = as.numeric(x), width = as.numeric(width))]
   d[, `:=`(cx = x + width / 2, cy = y + height / 2, right = x + width)]
-
+  
   # Accented glyphs are sometimes drawn twice at (almost) the same spot: keep one copy
   setorder(d, -height)
   same <- outer(d$text, d$text, "==") &
     abs(outer(d$x, d$x, "-")) <= 1.5 & abs(outer(d$cy, d$cy, "-")) <= 2.5
   keep <- rowSums(same & lower.tri(same)) == 0
   d <- d[keep]
-
+  
   h <- median(d$height)
   line_gap <- h / 2
   d[, row := cluster_1d(cy, line_gap)]
-
+  
   # Header = rows between "millió forintban" and the first row with a number
   top <- d[text == "forintban", row]
   if (!length(top)) stop(file, ": 'millió forintban' line not found", call. = FALSE)
@@ -104,7 +104,7 @@ read_fukon <- function(file) {
   first <- d[row > top & grepl(fukon_re$dec, text), row]
   if (!length(first)) stop(file, ": no numbers found below the header", call. = FALSE)
   first <- min(first)
-
+  
   # Table rows, classified by their label (= the non-numeric tokens)
   body <- d[row >= first][, is_num := grepl(fukon_re$num, text)]
   rows <- body[, {
@@ -130,7 +130,7 @@ read_fukon <- function(file) {
   if (nrow(stray)) warning(file, ": ignored row(s) with numbers but unrecognised label: ",
                            paste(shQuote(stray$name), collapse = ", "), call. = FALSE)
   rows <- rows[!is.na(level)]
-
+  
   # Value columns: numbers are right-aligned, so cluster the right edges of the last groups
   vals <- body[row %in% rows$row & is_num]
   dec_right <- vals[grepl(fukon_re$dec, text), right]
@@ -145,7 +145,7 @@ read_fukon <- function(file) {
                     raw = paste(text, collapse = " ")), by = .(row, col)]
   if (anyNA(cells$value)) warning(file, ": could not parse cell(s): ",
                                   paste(shQuote(cells[is.na(value), raw]), collapse = ", "), call. = FALSE)
-
+  
   # Column names: split header lines into phrases at wide gaps and give each phrase to
   # the column containing its centre (header text is centred over its column)
   L <- max(rows$label_right, na.rm = TRUE)
@@ -168,7 +168,7 @@ read_fukon <- function(file) {
     warning(file, ": duplicated column names made unique", call. = FALSE)
     cols <- make.unique(cols, sep = "_")
   }
-
+  
   m <- matrix(NA_real_, nrow(rows), K)
   m[cbind(match(cells$row, rows$row), cells$col)] <- cells$value
   out <- data.table(row = seq_len(nrow(rows)), level = rows$level, code = rows$code, name = rows$name)
@@ -220,34 +220,34 @@ check_fukon <- function(x, tol = NULL) {
   setorderv(x, c(keys, "row"))
   # A main group belongs to the closest function row above it
   x[, fn := cummax(fifelse(level == "function", row, 0L)), by = keys]
-
+  
   c1 <- merge(
     x[level == "main_group", .(doc_year, doc_type, column, parent = code, reported = v)],
     x[level == "subgroup", .(computed = sum(v), n = .N),
       by = .(doc_year, doc_type, column, parent = sub("\\..*$", "", code))],
     by = c(keys, "parent"), all.y = TRUE
   )[, check := "subgroups = main group"]
-
+  
   c2 <- merge(
     x[level == "function", .(doc_year, doc_type, column, fn = row, parent = name, reported = v)],
     x[level == "main_group", .(computed = sum(v), n = .N), by = c(keys, "fn")],
     by = c(keys, "fn"), all = TRUE
   )[, fn := NULL][, check := "main groups = function"]
-
+  
   c3 <- merge(
     x[level == "total" & grepl("kiadás", tolower(name)),
       .(doc_year, doc_type, column, parent = name, reported = v)],
     x[level == "function", .(computed = sum(v), n = .N), by = keys],
     by = keys
   )[, check := "functions = total expenditure"]
-
+  
   c4 <- x[level == "total", .(
     parent = "Egyenleg",
     reported = v[grepl("egyenleg", tolower(name))][1],
     computed = v[grepl("bevétel", tolower(name))][1] - v[grepl("kiadás", tolower(name))][1],
     n = 2L
   ), by = keys][!is.na(reported)][, check := "revenue - expenditure = balance"]
-
+  
   res <- rbindlist(list(c1, c2, c3, c4), use.names = TRUE, fill = TRUE)
   res[, diff := round(reported - computed, 6)]
   res[, tol := if (is.null(tol)) 0.05 * (n + 1) + 1e-6 else tol]
@@ -307,6 +307,15 @@ fukons <- list.files("./dokumentumok/", "fu__kon.pdf", recursive = TRUE, full.na
 fukons
 
 fk <- read_fukons(fukons)
+
+fk <- rbind(
+  fk,
+  melt(fread("./dokumentumok/2001/koltsegvetes-tervezet/fu__kon.csv"), id.vars = c("doc_year", "doc_type", "row", "level", "code", "name", "type"),
+       variable.name = "column", variable.factor = FALSE)[, .(doc_year, doc_type, row, level, code, name, type, column, value, year = as.numeric(substring(column, 1, 4)))],
+  melt(fread("./dokumentumok/2002/koltsegvetes-tervezet/fu__kon.csv"), id.vars = c("doc_year", "doc_type", "row", "level", "code", "name", "type"),
+       variable.name = "column", variable.factor = FALSE)[, .(doc_year, doc_type, row, level, code, name, type, column, value, year = as.numeric(substring(column, 1, 4)))]
+)
+
 colnames(fk)[colnames(fk) == "code"] <- "huncode"
 colnames(fk)[colnames(fk) == "name"] <- "hunname"
 
