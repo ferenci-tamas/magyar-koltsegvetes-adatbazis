@@ -1,7 +1,7 @@
 Magyar költségvetések adatbázisa (1949–2027)
 ================
 Ferenci Tamás (<https://www.medstat.hu/>)<br>
-2026. november 2.
+2026. november 4.
 
 Az ország költségvetése alapvetően határozza meg életünk kereteit: egyik
 oldalról megmutatja, hogy az állam mennyi adót, járulékot szed be, másik
@@ -140,7 +140,7 @@ nem találtam meg a költségvetés azon mellékleteit, amelyek a
 funkcionális bontást tartalmaznák (nagyon régre visszamenve valószínűleg
 nem is készült ilyen). A táblázat a konszolidált adatokat tartalmazza
 (ez azt jelenti, hogy ha az államháztartás egyik alrendszere egy másik
-alrendszernek pénzt küld, akkor azt nem jelenik meg az előbbinél
+alrendszernek pénzt küld, akkor az nem jelenik meg az előbbinél
 kiadásként, az utóbbinál pedig bevételként, hiszen az államháztartás
 egészét nézve egy ilyen mozgás neutrális).
 
