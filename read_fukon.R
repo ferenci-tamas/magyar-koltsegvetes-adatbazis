@@ -308,13 +308,13 @@ fukons
 
 fk <- read_fukons(fukons)
 
-fk <- rbind(
-  fk,
-  melt(fread("./dokumentumok/2001/koltsegvetes-tervezet/fu__kon.csv"), id.vars = c("doc_year", "doc_type", "row", "level", "code", "name", "type"),
-       variable.name = "column", variable.factor = FALSE)[, .(doc_year, doc_type, row, level, code, name, type, column, value, year = as.numeric(substring(column, 1, 4)))],
-  melt(fread("./dokumentumok/2002/koltsegvetes-tervezet/fu__kon.csv"), id.vars = c("doc_year", "doc_type", "row", "level", "code", "name", "type"),
-       variable.name = "column", variable.factor = FALSE)[, .(doc_year, doc_type, row, level, code, name, type, column, value, year = as.numeric(substring(column, 1, 4)))]
-)
+# fk <- rbind(
+#   fk,
+#   melt(fread("./dokumentumok/2001/koltsegvetes-tervezet/fu__kon.csv"), id.vars = c("doc_year", "doc_type", "row", "level", "code", "name", "type"),
+#        variable.name = "column", variable.factor = FALSE)[, .(doc_year, doc_type, row, level, code, name, type, column, value, year = as.numeric(substring(column, 1, 4)))],
+#   melt(fread("./dokumentumok/2002/koltsegvetes-tervezet/fu__kon.csv"), id.vars = c("doc_year", "doc_type", "row", "level", "code", "name", "type"),
+#        variable.name = "column", variable.factor = FALSE)[, .(doc_year, doc_type, row, level, code, name, type, column, value, year = as.numeric(substring(column, 1, 4)))]
+# )
 
 colnames(fk)[colnames(fk) == "code"] <- "huncode"
 colnames(fk)[colnames(fk) == "name"] <- "hunname"
