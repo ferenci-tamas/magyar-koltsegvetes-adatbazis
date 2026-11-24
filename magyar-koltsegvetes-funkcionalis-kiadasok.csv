@@ -8702,6 +8702,183 @@
 2025;Tervezet;59;main_group;F16;A főcsoportokba nem sorolható tételek;2025. évi előirányzat;2025;original_plan;289378,4
 2025;Tervezet;60;total;;Konszolidált kiadások összesen;2024. évi előirányzat;2024;original_plan;36025243,2
 2025;Tervezet;60;total;;Konszolidált kiadások összesen;2025. évi előirányzat;2025;original_plan;39390910,7
+2025;Zarszamadas;1;function;;ÁLLAMI MŰKÖDÉSI FUNKCIÓK;2024. évi teljesítés;2024;actual;6744908,5
+2025;Zarszamadas;1;function;;ÁLLAMI MŰKÖDÉSI FUNKCIÓK;2025. évi előirányzat;2025;original_plan;6862059,7
+2025;Zarszamadas;1;function;;ÁLLAMI MŰKÖDÉSI FUNKCIÓK;2025. évi teljesítés;2025;actual;7269836
+2025;Zarszamadas;2;main_group;F01;Általános közösségi szolgáltatások;2024. évi teljesítés;2024;actual;3547320,9
+2025;Zarszamadas;2;main_group;F01;Általános közösségi szolgáltatások;2025. évi előirányzat;2025;original_plan;3784288,5
+2025;Zarszamadas;2;main_group;F01;Általános közösségi szolgáltatások;2025. évi teljesítés;2025;actual;4053463,5
+2025;Zarszamadas;3;subgroup;F01.a;Törvényhozó és végrehajtó szervek;2024. évi teljesítés;2024;actual;1551049,8
+2025;Zarszamadas;3;subgroup;F01.a;Törvényhozó és végrehajtó szervek;2025. évi előirányzat;2025;original_plan;1559979,8
+2025;Zarszamadas;3;subgroup;F01.a;Törvényhozó és végrehajtó szervek;2025. évi teljesítés;2025;actual;1737529,6
+2025;Zarszamadas;4;subgroup;F01.b;Pénzügyi és költségvetési tevékenységek és szolgáltatások;2024. évi teljesítés;2024;actual;735495,6
+2025;Zarszamadas;4;subgroup;F01.b;Pénzügyi és költségvetési tevékenységek és szolgáltatások;2025. évi előirányzat;2025;original_plan;914172,5
+2025;Zarszamadas;4;subgroup;F01.b;Pénzügyi és költségvetési tevékenységek és szolgáltatások;2025. évi teljesítés;2025;actual;943913
+2025;Zarszamadas;5;subgroup;F01.c;Külügyek;2024. évi teljesítés;2024;actual;212462,1
+2025;Zarszamadas;5;subgroup;F01.c;Külügyek;2025. évi előirányzat;2025;original_plan;202629,7
+2025;Zarszamadas;5;subgroup;F01.c;Külügyek;2025. évi teljesítés;2025;actual;198611,4
+2025;Zarszamadas;6;subgroup;F01.d;Alapkutatás;2024. évi teljesítés;2024;actual;222315,2
+2025;Zarszamadas;6;subgroup;F01.d;Alapkutatás;2025. évi előirányzat;2025;original_plan;190415,4
+2025;Zarszamadas;6;subgroup;F01.d;Alapkutatás;2025. évi teljesítés;2025;actual;271742,1
+2025;Zarszamadas;7;subgroup;F01.f;Egyéb általános közösségi szolgáltatások;2024. évi teljesítés;2024;actual;825998,2
+2025;Zarszamadas;7;subgroup;F01.f;Egyéb általános közösségi szolgáltatások;2025. évi előirányzat;2025;original_plan;917091,1
+2025;Zarszamadas;7;subgroup;F01.f;Egyéb általános közösségi szolgáltatások;2025. évi teljesítés;2025;actual;901667,4
+2025;Zarszamadas;8;main_group;F02;Védelem;2024. évi teljesítés;2024;actual;1802955,9
+2025;Zarszamadas;8;main_group;F02;Védelem;2025. évi előirányzat;2025;original_plan;1751997,3
+2025;Zarszamadas;8;main_group;F02;Védelem;2025. évi teljesítés;2025;actual;1787324,9
+2025;Zarszamadas;9;main_group;F03;Rendvédelem és közbiztonság;2024. évi teljesítés;2024;actual;1394631,7
+2025;Zarszamadas;9;main_group;F03;Rendvédelem és közbiztonság;2025. évi előirányzat;2025;original_plan;1325773,9
+2025;Zarszamadas;9;main_group;F03;Rendvédelem és közbiztonság;2025. évi teljesítés;2025;actual;1429047,6
+2025;Zarszamadas;10;subgroup;F03.a;Igazságszolgáltatás;2024. évi teljesítés;2024;actual;228083,6
+2025;Zarszamadas;10;subgroup;F03.a;Igazságszolgáltatás;2025. évi előirányzat;2025;original_plan;267130,6
+2025;Zarszamadas;10;subgroup;F03.a;Igazságszolgáltatás;2025. évi teljesítés;2025;actual;270153,7
+2025;Zarszamadas;11;subgroup;F03.b;Rend- és közbiztonság;2024. évi teljesítés;2024;actual;811751,3
+2025;Zarszamadas;11;subgroup;F03.b;Rend- és közbiztonság;2025. évi előirányzat;2025;original_plan;787352,6
+2025;Zarszamadas;11;subgroup;F03.b;Rend- és közbiztonság;2025. évi teljesítés;2025;actual;821989,6
+2025;Zarszamadas;12;subgroup;F03.c;Tűzvédelem;2024. évi teljesítés;2024;actual;142560
+2025;Zarszamadas;12;subgroup;F03.c;Tűzvédelem;2025. évi előirányzat;2025;original_plan;132089,8
+2025;Zarszamadas;12;subgroup;F03.c;Tűzvédelem;2025. évi teljesítés;2025;actual;144358,4
+2025;Zarszamadas;13;subgroup;F03.d;Büntetésvégrehajtási igazgatás és működtetés;2024. évi teljesítés;2024;actual;212236,8
+2025;Zarszamadas;13;subgroup;F03.d;Büntetésvégrehajtási igazgatás és működtetés;2025. évi előirányzat;2025;original_plan;139200,9
+2025;Zarszamadas;13;subgroup;F03.d;Büntetésvégrehajtási igazgatás és működtetés;2025. évi teljesítés;2025;actual;192545,9
+2025;Zarszamadas;14;function;;JÓLÉTI FUNKCIÓK;2024. évi teljesítés;2024;actual;21004406,9
+2025;Zarszamadas;14;function;;JÓLÉTI FUNKCIÓK;2025. évi előirányzat;2025;original_plan;21583979,5
+2025;Zarszamadas;14;function;;JÓLÉTI FUNKCIÓK;2025. évi teljesítés;2025;actual;22182798,9
+2025;Zarszamadas;15;main_group;F04;Oktatási tevékenységek és szolgáltatások;2024. évi teljesítés;2024;actual;3531275,9
+2025;Zarszamadas;15;main_group;F04;Oktatási tevékenységek és szolgáltatások;2025. évi előirányzat;2025;original_plan;3869450
+2025;Zarszamadas;15;main_group;F04;Oktatási tevékenységek és szolgáltatások;2025. évi teljesítés;2025;actual;3841932,6
+2025;Zarszamadas;16;subgroup;F04.a;Iskolai előkészítés és alapfokú oktatás;2024. évi teljesítés;2024;actual;458725,9
+2025;Zarszamadas;16;subgroup;F04.a;Iskolai előkészítés és alapfokú oktatás;2025. évi előirányzat;2025;original_plan;452376,8
+2025;Zarszamadas;16;subgroup;F04.a;Iskolai előkészítés és alapfokú oktatás;2025. évi teljesítés;2025;actual;522108,8
+2025;Zarszamadas;17;subgroup;F04.b;Középfokú oktatás;2024. évi teljesítés;2024;actual;614751,2
+2025;Zarszamadas;17;subgroup;F04.b;Középfokú oktatás;2025. évi előirányzat;2025;original_plan;597971,2
+2025;Zarszamadas;17;subgroup;F04.b;Középfokú oktatás;2025. évi teljesítés;2025;actual;656948,2
+2025;Zarszamadas;18;subgroup;F04.c;Felsőfokú oktatás;2024. évi teljesítés;2024;actual;811778,6
+2025;Zarszamadas;18;subgroup;F04.c;Felsőfokú oktatás;2025. évi előirányzat;2025;original_plan;847688,2
+2025;Zarszamadas;18;subgroup;F04.c;Felsőfokú oktatás;2025. évi teljesítés;2025;actual;861341,5
+2025;Zarszamadas;19;subgroup;F04.d;Egyéb oktatás;2024. évi teljesítés;2024;actual;1646020,2
+2025;Zarszamadas;19;subgroup;F04.d;Egyéb oktatás;2025. évi előirányzat;2025;original_plan;1971413,8
+2025;Zarszamadas;19;subgroup;F04.d;Egyéb oktatás;2025. évi teljesítés;2025;actual;1801534,1
+2025;Zarszamadas;20;main_group;F05;Egészségügy;2024. évi teljesítés;2024;actual;3814419,2
+2025;Zarszamadas;20;main_group;F05;Egészségügy;2025. évi előirányzat;2025;original_plan;3638696,4
+2025;Zarszamadas;20;main_group;F05;Egészségügy;2025. évi teljesítés;2025;actual;4214099,3
+2025;Zarszamadas;21;subgroup;F05.a;Kórházi tevékenységek és szolgáltatások;2024. évi teljesítés;2024;actual;2552746,5
+2025;Zarszamadas;21;subgroup;F05.a;Kórházi tevékenységek és szolgáltatások;2025. évi előirányzat;2025;original_plan;2278643,1
+2025;Zarszamadas;21;subgroup;F05.a;Kórházi tevékenységek és szolgáltatások;2025. évi teljesítés;2025;actual;2672199
+2025;Zarszamadas;22;subgroup;F05.b;Háziorvosi és gyermekorvosi szolgálat;2024. évi teljesítés;2024;actual;301460,8
+2025;Zarszamadas;22;subgroup;F05.b;Háziorvosi és gyermekorvosi szolgálat;2025. évi előirányzat;2025;original_plan;320568,9
+2025;Zarszamadas;22;subgroup;F05.b;Háziorvosi és gyermekorvosi szolgálat;2025. évi teljesítés;2025;actual;303775,8
+2025;Zarszamadas;23;subgroup;F05.c;Rendelői, orvosi, fogorvosi ellátás;2024. évi teljesítés;2024;actual;215448,5
+2025;Zarszamadas;23;subgroup;F05.c;Rendelői, orvosi, fogorvosi ellátás;2025. évi előirányzat;2025;original_plan;191465,5
+2025;Zarszamadas;23;subgroup;F05.c;Rendelői, orvosi, fogorvosi ellátás;2025. évi teljesítés;2025;actual;230432,1
+2025;Zarszamadas;24;subgroup;F05.d;Közegészségügyi tevékenységek és szolgáltatások;2024. évi teljesítés;2024;actual;72711,4
+2025;Zarszamadas;24;subgroup;F05.d;Közegészségügyi tevékenységek és szolgáltatások;2025. évi előirányzat;2025;original_plan;67322,3
+2025;Zarszamadas;24;subgroup;F05.d;Közegészségügyi tevékenységek és szolgáltatások;2025. évi teljesítés;2025;actual;86364,3
+2025;Zarszamadas;25;subgroup;F05.e;Egyéb egészségügy;2024. évi teljesítés;2024;actual;672052
+2025;Zarszamadas;25;subgroup;F05.e;Egyéb egészségügy;2025. évi előirányzat;2025;original_plan;780696,6
+2025;Zarszamadas;25;subgroup;F05.e;Egyéb egészségügy;2025. évi teljesítés;2025;actual;921328,1
+2025;Zarszamadas;26;main_group;F06;Társadalombiztosítási és jóléti szolgáltatások;2024. évi teljesítés;2024;actual;11135594,9
+2025;Zarszamadas;26;main_group;F06;Társadalombiztosítási és jóléti szolgáltatások;2025. évi előirányzat;2025;original_plan;11620046,6
+2025;Zarszamadas;26;main_group;F06;Társadalombiztosítási és jóléti szolgáltatások;2025. évi teljesítés;2025;actual;11803185,7
+2025;Zarszamadas;27;subgroup;F06.a;Táppénz, anyasági vagy ideiglenes rokkantsági juttatások;2024. évi teljesítés;2024;actual;783647,5
+2025;Zarszamadas;27;subgroup;F06.a;Táppénz, anyasági vagy ideiglenes rokkantsági juttatások;2025. évi előirányzat;2025;original_plan;829444,6
+2025;Zarszamadas;27;subgroup;F06.a;Táppénz, anyasági vagy ideiglenes rokkantsági juttatások;2025. évi teljesítés;2025;actual;857570,7
+2025;Zarszamadas;28;subgroup;F06.b;Nyugellátások;2024. évi teljesítés;2024;actual;6208443,1
+2025;Zarszamadas;28;subgroup;F06.b;Nyugellátások;2025. évi előirányzat;2025;original_plan;6545915,4
+2025;Zarszamadas;28;subgroup;F06.b;Nyugellátások;2025. évi teljesítés;2025;actual;6627678,9
+2025;Zarszamadas;29;subgroup;F06.c;Egyéb társadalombiztosítási ellátások;2024. évi teljesítés;2024;actual;53169,8
+2025;Zarszamadas;29;subgroup;F06.c;Egyéb társadalombiztosítási ellátások;2025. évi előirányzat;2025;original_plan;56246,7
+2025;Zarszamadas;29;subgroup;F06.c;Egyéb társadalombiztosítási ellátások;2025. évi teljesítés;2025;actual;56147,1
+2025;Zarszamadas;30;subgroup;F06.d;Munkanélküli ellátások;2024. évi teljesítés;2024;actual;184455
+2025;Zarszamadas;30;subgroup;F06.d;Munkanélküli ellátások;2025. évi előirányzat;2025;original_plan;201287,2
+2025;Zarszamadas;30;subgroup;F06.d;Munkanélküli ellátások;2025. évi teljesítés;2025;actual;197847,4
+2025;Zarszamadas;31;subgroup;F06.e;Családi pótlékok és gyermekeknek járó juttatások;2024. évi teljesítés;2024;actual;953060,5
+2025;Zarszamadas;31;subgroup;F06.e;Családi pótlékok és gyermekeknek járó juttatások;2025. évi előirányzat;2025;original_plan;1050905,3
+2025;Zarszamadas;31;subgroup;F06.e;Családi pótlékok és gyermekeknek járó juttatások;2025. évi teljesítés;2025;actual;996838,4
+2025;Zarszamadas;32;subgroup;F06.f;Egyéb szociális támogatások;2024. évi teljesítés;2024;actual;1597323
+2025;Zarszamadas;32;subgroup;F06.f;Egyéb szociális támogatások;2025. évi előirányzat;2025;original_plan;1537266
+2025;Zarszamadas;32;subgroup;F06.f;Egyéb szociális támogatások;2025. évi teljesítés;2025;actual;1604581
+2025;Zarszamadas;33;subgroup;F06.g;Szociális és jóléti intézményi szolgáltatások;2024. évi teljesítés;2024;actual;1355496
+2025;Zarszamadas;33;subgroup;F06.g;Szociális és jóléti intézményi szolgáltatások;2025. évi előirányzat;2025;original_plan;1398981,4
+2025;Zarszamadas;33;subgroup;F06.g;Szociális és jóléti intézményi szolgáltatások;2025. évi teljesítés;2025;actual;1462522,2
+2025;Zarszamadas;34;main_group;F07;Lakásügyek, települési és közösségi tevékenységek és szolgáltatások;2024. évi teljesítés;2024;actual;800681,1
+2025;Zarszamadas;34;main_group;F07;Lakásügyek, települési és közösségi tevékenységek és szolgáltatások;2025. évi előirányzat;2025;original_plan;910234,2
+2025;Zarszamadas;34;main_group;F07;Lakásügyek, települési és közösségi tevékenységek és szolgáltatások;2025. évi teljesítés;2025;actual;763224,1
+2025;Zarszamadas;35;main_group;F08;Szórakoztató, kulturális, vallási tevékenységek és szolgáltatások;2024. évi teljesítés;2024;actual;1722435,8
+2025;Zarszamadas;35;main_group;F08;Szórakoztató, kulturális, vallási tevékenységek és szolgáltatások;2025. évi előirányzat;2025;original_plan;1545552,3
+2025;Zarszamadas;35;main_group;F08;Szórakoztató, kulturális, vallási tevékenységek és szolgáltatások;2025. évi teljesítés;2025;actual;1560357,2
+2025;Zarszamadas;36;subgroup;F08.a;Sport és szabadidős tevékenységek és szolgáltatások;2024. évi teljesítés;2024;actual;480226,2
+2025;Zarszamadas;36;subgroup;F08.a;Sport és szabadidős tevékenységek és szolgáltatások;2025. évi előirányzat;2025;original_plan;393224
+2025;Zarszamadas;36;subgroup;F08.a;Sport és szabadidős tevékenységek és szolgáltatások;2025. évi teljesítés;2025;actual;349809,5
+2025;Zarszamadas;37;subgroup;F08.b;Kulturális tevékenységek és szolgáltatások;2024. évi teljesítés;2024;actual;685019,2
+2025;Zarszamadas;37;subgroup;F08.b;Kulturális tevékenységek és szolgáltatások;2025. évi előirányzat;2025;original_plan;630633
+2025;Zarszamadas;37;subgroup;F08.b;Kulturális tevékenységek és szolgáltatások;2025. évi teljesítés;2025;actual;669130,2
+2025;Zarszamadas;38;subgroup;F08.c;Műsorszórási és kiadói tevékenységek és szolgáltatások;2024. évi teljesítés;2024;actual;136203,6
+2025;Zarszamadas;38;subgroup;F08.c;Műsorszórási és kiadói tevékenységek és szolgáltatások;2025. évi előirányzat;2025;original_plan;149421,2
+2025;Zarszamadas;38;subgroup;F08.c;Műsorszórási és kiadói tevékenységek és szolgáltatások;2025. évi teljesítés;2025;actual;149821,6
+2025;Zarszamadas;39;subgroup;F08.d;Hitéleti tevékenységek;2024. évi teljesítés;2024;actual;156227,2
+2025;Zarszamadas;39;subgroup;F08.d;Hitéleti tevékenységek;2025. évi előirányzat;2025;original_plan;126494,8
+2025;Zarszamadas;39;subgroup;F08.d;Hitéleti tevékenységek;2025. évi teljesítés;2025;actual;129520,7
+2025;Zarszamadas;40;subgroup;F08.e;Párttevékenységek;2024. évi teljesítés;2024;actual;2311,8
+2025;Zarszamadas;40;subgroup;F08.e;Párttevékenységek;2025. évi előirányzat;2025;original_plan;2548,8
+2025;Zarszamadas;40;subgroup;F08.e;Párttevékenységek;2025. évi teljesítés;2025;actual;2520,4
+2025;Zarszamadas;41;subgroup;F08.f;Egyéb közösségi és kulturális tevékenységek;2024. évi teljesítés;2024;actual;262447,8
+2025;Zarszamadas;41;subgroup;F08.f;Egyéb közösségi és kulturális tevékenységek;2025. évi előirányzat;2025;original_plan;243230,5
+2025;Zarszamadas;41;subgroup;F08.f;Egyéb közösségi és kulturális tevékenységek;2025. évi teljesítés;2025;actual;259554,8
+2025;Zarszamadas;42;function;;GAZDASÁGI FUNKCIÓK;2024. évi teljesítés;2024;actual;5659434,1
+2025;Zarszamadas;42;function;;GAZDASÁGI FUNKCIÓK;2025. évi előirányzat;2025;original_plan;6679637,2
+2025;Zarszamadas;42;function;;GAZDASÁGI FUNKCIÓK;2025. évi teljesítés;2025;actual;6696185,4
+2025;Zarszamadas;43;main_group;F09;Tüzelő- és üzemanyag, valamint energiaellátási feladatok;2024. évi teljesítés;2024;actual;74529,1
+2025;Zarszamadas;43;main_group;F09;Tüzelő- és üzemanyag, valamint energiaellátási feladatok;2025. évi előirányzat;2025;original_plan;267362,5
+2025;Zarszamadas;43;main_group;F09;Tüzelő- és üzemanyag, valamint energiaellátási feladatok;2025. évi teljesítés;2025;actual;443800,3
+2025;Zarszamadas;44;main_group;F10;Mező-, erdő- , hal- és vadgazdálkodás;2024. évi teljesítés;2024;actual;697649,4
+2025;Zarszamadas;44;main_group;F10;Mező-, erdő- , hal- és vadgazdálkodás;2025. évi előirányzat;2025;original_plan;755780,6
+2025;Zarszamadas;44;main_group;F10;Mező-, erdő- , hal- és vadgazdálkodás;2025. évi teljesítés;2025;actual;862537,2
+2025;Zarszamadas;45;main_group;F11;Bányászat és ipar;2024. évi teljesítés;2024;actual;4653,7
+2025;Zarszamadas;45;main_group;F11;Bányászat és ipar;2025. évi előirányzat;2025;original_plan;11989,5
+2025;Zarszamadas;45;main_group;F11;Bányászat és ipar;2025. évi teljesítés;2025;actual;2214,9
+2025;Zarszamadas;46;main_group;F12;Közlekedési és távközlési tevékenységek és szolgáltatások;2024. évi teljesítés;2024;actual;2376826,4
+2025;Zarszamadas;46;main_group;F12;Közlekedési és távközlési tevékenységek és szolgáltatások;2025. évi előirányzat;2025;original_plan;2688697,3
+2025;Zarszamadas;46;main_group;F12;Közlekedési és távközlési tevékenységek és szolgáltatások;2025. évi teljesítés;2025;actual;3079662,4
+2025;Zarszamadas;47;subgroup;F12.a;Közúti közlekedési tevékenységek;2024. évi teljesítés;2024;actual;1355979,4
+2025;Zarszamadas;47;subgroup;F12.a;Közúti közlekedési tevékenységek;2025. évi előirányzat;2025;original_plan;1625349,1
+2025;Zarszamadas;47;subgroup;F12.a;Közúti közlekedési tevékenységek;2025. évi teljesítés;2025;actual;1814104
+2025;Zarszamadas;48;subgroup;F12.b;Vasúti közlekedésügyek és szolgáltatások;2024. évi teljesítés;2024;actual;823972
+2025;Zarszamadas;48;subgroup;F12.b;Vasúti közlekedésügyek és szolgáltatások;2025. évi előirányzat;2025;original_plan;858391,7
+2025;Zarszamadas;48;subgroup;F12.b;Vasúti közlekedésügyek és szolgáltatások;2025. évi teljesítés;2025;actual;929176
+2025;Zarszamadas;49;subgroup;F12.c;Távközlés;2024. évi teljesítés;2024;actual;150225
+2025;Zarszamadas;49;subgroup;F12.c;Távközlés;2025. évi előirányzat;2025;original_plan;170351,4
+2025;Zarszamadas;49;subgroup;F12.c;Távközlés;2025. évi teljesítés;2025;actual;182550,1
+2025;Zarszamadas;50;subgroup;F12.d;Egyéb közlekedés és szállítás;2024. évi teljesítés;2024;actual;46650
+2025;Zarszamadas;50;subgroup;F12.d;Egyéb közlekedés és szállítás;2025. évi előirányzat;2025;original_plan;34605,1
+2025;Zarszamadas;50;subgroup;F12.d;Egyéb közlekedés és szállítás;2025. évi teljesítés;2025;actual;153832,3
+2025;Zarszamadas;51;main_group;F13;Egyéb gazdasági tevékenységek és szolgáltatások;2024. évi teljesítés;2024;actual;2168408,5
+2025;Zarszamadas;51;main_group;F13;Egyéb gazdasági tevékenységek és szolgáltatások;2025. évi előirányzat;2025;original_plan;2478707
+2025;Zarszamadas;51;main_group;F13;Egyéb gazdasági tevékenységek és szolgáltatások;2025. évi teljesítés;2025;actual;1985507,2
+2025;Zarszamadas;52;subgroup;F13.a;Többcélú fejlesztési témák tevékenységei és szolgáltatásai;2024. évi teljesítés;2024;actual;759139,2
+2025;Zarszamadas;52;subgroup;F13.a;Többcélú fejlesztési témák tevékenységei és szolgáltatásai;2025. évi előirányzat;2025;original_plan;1145551,4
+2025;Zarszamadas;52;subgroup;F13.a;Többcélú fejlesztési témák tevékenységei és szolgáltatásai;2025. évi teljesítés;2025;actual;354864,6
+2025;Zarszamadas;53;subgroup;F13.b;További egyéb gazdasági tevékenységek és szolgáltatások;2024. évi teljesítés;2024;actual;1409269,3
+2025;Zarszamadas;53;subgroup;F13.b;További egyéb gazdasági tevékenységek és szolgáltatások;2025. évi előirányzat;2025;original_plan;1333155,6
+2025;Zarszamadas;53;subgroup;F13.b;További egyéb gazdasági tevékenységek és szolgáltatások;2025. évi teljesítés;2025;actual;1630642,6
+2025;Zarszamadas;54;main_group;F14;Környezetvédelem;2024. évi teljesítés;2024;actual;337367
+2025;Zarszamadas;54;main_group;F14;Környezetvédelem;2025. évi előirányzat;2025;original_plan;477100,3
+2025;Zarszamadas;54;main_group;F14;Környezetvédelem;2025. évi teljesítés;2025;actual;322463,4
+2025;Zarszamadas;55;function;;ÁLLAMADÓSSÁG-KEZELÉS;2024. évi teljesítés;2024;actual;3655715,2
+2025;Zarszamadas;55;function;;ÁLLAMADÓSSÁG-KEZELÉS;2025. évi előirányzat;2025;original_plan;3876479,9
+2025;Zarszamadas;55;function;;ÁLLAMADÓSSÁG-KEZELÉS;2025. évi teljesítés;2025;actual;4249690,5
+2025;Zarszamadas;56;main_group;F15;Államadósság-kezelés, államháztartás;2024. évi teljesítés;2024;actual;3655715,2
+2025;Zarszamadas;56;main_group;F15;Államadósság-kezelés, államháztartás;2025. évi előirányzat;2025;original_plan;3876479,9
+2025;Zarszamadas;56;main_group;F15;Államadósság-kezelés, államháztartás;2025. évi teljesítés;2025;actual;4249690,5
+2025;Zarszamadas;57;function;;FUNKCIÓBA NEM SOROLHATÓ TÉTELEK;2024. évi teljesítés;2024;actual;49704,6
+2025;Zarszamadas;57;function;;FUNKCIÓBA NEM SOROLHATÓ TÉTELEK;2025. évi előirányzat;2025;original_plan;289451
+2025;Zarszamadas;57;function;;FUNKCIÓBA NEM SOROLHATÓ TÉTELEK;2025. évi teljesítés;2025;actual;83366,5
+2025;Zarszamadas;58;main_group;F16;A főcsoportokba nem sorolható tételek;2024. évi teljesítés;2024;actual;49704,6
+2025;Zarszamadas;58;main_group;F16;A főcsoportokba nem sorolható tételek;2025. évi előirányzat;2025;original_plan;289451
+2025;Zarszamadas;58;main_group;F16;A főcsoportokba nem sorolható tételek;2025. évi teljesítés;2025;actual;83366,5
+2025;Zarszamadas;59;total;;Konszolidált kiadások összesen;2024. évi teljesítés;2024;actual;37114169,3
+2025;Zarszamadas;59;total;;Konszolidált kiadások összesen;2025. évi előirányzat;2025;original_plan;39291607,3
+2025;Zarszamadas;59;total;;Konszolidált kiadások összesen;2025. évi teljesítés;2025;actual;40481877,3
 2026;Tervezet;1;function;;ÁLLAMI MŰKÖDÉSI FUNKCIÓK;2025. évi előirányzat;2025;original_plan;6864527,4
 2026;Tervezet;1;function;;ÁLLAMI MŰKÖDÉSI FUNKCIÓK;2026. évi előirányzat;2026;original_plan;7441053,2
 2026;Tervezet;2;main_group;F01;Általános közösségi szolgáltatások;2025. évi előirányzat;2025;original_plan;3786756,2

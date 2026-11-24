@@ -307,6 +307,7 @@ fukons <- list.files("./dokumentumok/", "fu__kon.pdf", recursive = TRUE, full.na
 fukons
 
 fk <- read_fukons(fukons)
+attr(fk, "checks")[ok == FALSE]
 
 # fk <- rbind(
 #   fk,

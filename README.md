@@ -1,7 +1,7 @@
 Magyar költségvetések adatbázisa (1949–2027)
 ================
 Ferenci Tamás (<https://www.medstat.hu/>)<br>
-2026. november 4.
+2026. november 24.
 
 Az ország költségvetése alapvetően határozza meg életünk kereteit: egyik
 oldalról megmutatja, hogy az állam mennyi adót, járulékot szed be, másik
@@ -265,7 +265,7 @@ elkészült.
 |---:|:---|:---|:---|:---|:---|
 | 2027 | [Dokumentumok](dokumentumok/2027/koltsegvetes-tervezet) |  |  |  |  |
 | 2026 | [Dokumentumok](dokumentumok/2026/koltsegvetes-tervezet) | [Jogszabály](dokumentumok/2026/koltsegvetes-jogszabaly) ([NJT](https://njt.jog.gov.hu/jogszabaly/2025-69-00-00), [Jogkódex](https://jogkodex.hu/jsz/2025_69_torveny_2330920)) |  |  |  |
-| 2025 | [Dokumentumok](dokumentumok/2025/koltsegvetes-tervezet) | [Jogszabály](dokumentumok/2025/koltsegvetes-jogszabaly) ([NJT](https://njt.jog.gov.hu/jogszabaly/2024-90-00-00), [Jogkódex](https://jogkodex.hu/jsz/kvtv_2025_2024_90_torveny_4651494)) |  |  |  |
+| 2025 | [Dokumentumok](dokumentumok/2025/koltsegvetes-tervezet) | [Jogszabály](dokumentumok/2025/koltsegvetes-jogszabaly) ([NJT](https://njt.jog.gov.hu/jogszabaly/2024-90-00-00), [Jogkódex](https://jogkodex.hu/jsz/kvtv_2025_2024_90_torveny_4651494)) |  | [Dokumentumok](dokumentumok/2025/zarszamadas-tervezet) |  |
 | 2024 | [Dokumentumok](dokumentumok/2024/koltsegvetes-tervezet) ([Parlament.hu](https://www.parlament.hu/irom42/04181/04181.html)) | [Jogszabály](dokumentumok/2024/koltsegvetes-jogszabaly) ([NJT](https://njt.jog.gov.hu/jogszabaly/2023-55-00-00), [Jogkódex](https://jogkodex.hu/jsz/kvtv_2024_2023_55_torveny_6555338)) |  | [Dokumentumok](dokumentumok/2024/zarszamadas-tervezet) | [Jogszabály](dokumentumok/2024/zarszamadas-jogszabaly) ([NJT](https://njt.jog.gov.hu/jogszabaly/2025-85-00-00), [Jogkódex](https://jogkodex.hu/jsz/2025_85_torveny_6748204)) |
 | 2023 | [Dokumentumok](dokumentumok/2023/koltsegvetes-tervezet) ([Parlament.hu](https://www.parlament.hu/irom42/00152/00152.html)) | [Jogszabály](dokumentumok/2023/koltsegvetes-jogszabaly) ([NJT](https://njt.jog.gov.hu/jogszabaly/2022-25-00-00), [Jogkódex](https://jogkodex.hu/jsz/kvtv_2023_2022_25_torveny_7266010)) |  | [Dokumentumok](dokumentumok/2023/zarszamadas-tervezet) | [Jogszabály](dokumentumok/2023/zarszamadas-jogszabaly) ([NJT](https://njt.jog.gov.hu/jogszabaly/2024-48-00-00), [Jogkódex](https://jogkodex.hu/jsz/2024_48_torveny_2958386)) |
 | 2022 | [Dokumentumok](dokumentumok/2022/koltsegvetes-tervezet) ([Parlament.hu](https://www.parlament.hu/irom41/16118/16118.html)) | [Jogszabály](dokumentumok/2022/koltsegvetes-jogszabaly) ([NJT](https://njt.jog.gov.hu/jogszabaly/2021-90-00-00), [Jogkódex](https://jogkodex.hu/jsz/kvtv_2022_2021_90_torveny_9194446)) |  | [Dokumentumok](dokumentumok/2022/zarszamadas-tervezet) ([Parlament.hu](https://www.parlament.hu/irom42/05387/05387.html)) | [Jogszabály](dokumentumok/2022/zarszamadas-jogszabaly) ([NJT](https://njt.jog.gov.hu/jogszabaly/2023-73-00-00), [Jogkódex](https://jogkodex.hu/jsz/2023_73_torveny_9883063)) |

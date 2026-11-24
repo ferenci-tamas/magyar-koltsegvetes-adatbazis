@@ -32,6 +32,7 @@ for(yr in LinkData[LinkZarszamadas != "" & Ev >= 1995]$Ev) {
                      LinkData[Ev == yr]$LinkZarszamadas))
 }
 
+qpdf::pdf_subset("./dokumentumok/2025/zarszamadas-tervezet/01019KIEGSZ001.pdf", 89, "./dokumentumok/2025/zarszamadas-tervezet/fu__kon.pdf")
 qpdf::pdf_subset("./dokumentumok/2024/zarszamadas-tervezet/12679KIEGSZ001.pdf", 95, "./dokumentumok/2024/zarszamadas-tervezet/fu__kon.pdf")
 qpdf::pdf_subset("./dokumentumok/2023/zarszamadas-tervezet/09346KIEGSZ001.pdf", 97, "./dokumentumok/2023/zarszamadas-tervezet/fu__kon.pdf")
 qpdf::pdf_subset("./dokumentumok/2022/zarszamadas-tervezet/tvjav_00_indmell.pdf", 104, "./dokumentumok/2022/zarszamadas-tervezet/fu__kon.pdf")
